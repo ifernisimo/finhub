@@ -1,0 +1,15 @@
+
+.container{
+    display: flex;
+    width: 70vw;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.miniBlog{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}

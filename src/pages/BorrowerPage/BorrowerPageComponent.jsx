@@ -4,6 +4,10 @@ import FooterComponent from "../../components/FooterComponent/FooterComponent";
 import styles from "./BorrowerPageComponent.module.css";
 import PartnersComponent from "../../components/PartnersComponent/PartnersComponent";
 import QuestionComponent from "../../components/QuestionComponent/QuestionComponent";
+import FeedBackComponent from "../../components/FeedBackComponent/FeedBackComponent";
+import HowToComponent from "../../components/HowToComponent/HowToComponent";
+import { Link, NavLink } from "react-router-dom";
+import MiniBlogComponent from "../../components/MiniBlogComponent/MiniBlogComponent";
 
 const BorrowerPageComponent = (props) => {
   return (
@@ -42,7 +46,9 @@ const BorrowerPageComponent = (props) => {
           <h4>
             Онлайн кредит до 30 000 гривен, до 12 месяцев, без скрытых комиссий
           </h4>
-          <button>Получить кредит</button>
+          <button>
+            <NavLink to={"/auth"}>Получить кредит</NavLink>
+          </button>
         </div>
         <div className="creditAdvantages">
           <div className="blockTitle">
@@ -125,52 +131,16 @@ const BorrowerPageComponent = (props) => {
               достигнутом.
             </p>
             <div className="joinBtns">
-              <button>Получить крдит</button>
-              <button>Стать инвестором</button>
+              <button>
+                <NavLink to={"/auth"}>Получить кредит</NavLink>
+              </button>
+              <button>
+                <NavLink to={"/investor"}>Стать инвестором</NavLink>
+              </button>
             </div>
           </div>
         </div>
-        <div className="howToTakeRepayCredit">
-          <div className="howTo">
-            <button>Как получить кредит</button>
-            <button>Как погасить кредит</button>
-          </div>
-          <div className="howTo__cards">
-            <div className="howTo__cards-item">
-              <div className="item-title">
-                <img src="" alt="" />
-                <h4>Заполните заявку</h4>
-              </div>
-              <p>
-                Пройдите простой процесс регистрации, который занимает всего
-                несколько минут. А при последующих обращениях вы сможете
-                получить кредит в два клика.
-              </p>
-            </div>
-            <div className="howTo__cards-item">
-              <div className="item-title">
-                <img src="" alt="" />
-                <h4>Заполните заявку</h4>
-              </div>
-              <p>
-                Пройдите простой процесс регистрации, который занимает всего
-                несколько минут. А при последующих обращениях вы сможете
-                получить кредит в два клика.
-              </p>
-            </div>
-            <div className="howTo__cards-item">
-              <div className="item-title">
-                <img src="" alt="" />
-                <h4>Заполните заявку</h4>
-              </div>
-              <p>
-                Пройдите простой процесс регистрации, который занимает всего
-                несколько минут. А при последующих обращениях вы сможете
-                получить кредит в два клика.
-              </p>
-            </div>
-          </div>
-        </div>
+        <HowToComponent />
         <div className="creditOnlineOnCard">
           <div className="blockTitle">
             <img src="#" alt="" />
@@ -297,14 +267,14 @@ const BorrowerPageComponent = (props) => {
             процентная ставка по всем последующим кредитным обязательствам.
           </p>
         </div>
-        {/*FEEDBACK COMPONENT*/}
+        <FeedBackComponent />
         <div className="p2p">
           <div className="blockTitle">
             <img src="#" alt="" />
             <h1>P2P кредитование — обучающий ролик</h1>
           </div>
         </div>
-        {/*BLOG COMPONENT*/}
+        <MiniBlogComponent />
         <div className="successNotInMoney">
           <img src="" alt="" />
           <div className="wayToDream__infoBlock">
@@ -319,8 +289,12 @@ const BorrowerPageComponent = (props) => {
               увидеть возможность и вовремя ею воспользоваться.
             </p>
             <div className="joinBtns">
-              <button>Получить крдит</button>
-              <button>Стать инвестором</button>
+              <button>
+                <NavLink to={"/auth"}>Получить кредит</NavLink>
+              </button>
+              <button>
+                <NavLink to={"/investor"}>Стать инвестором</NavLink>
+              </button>
             </div>
           </div>
           <div className="blogBlock">
