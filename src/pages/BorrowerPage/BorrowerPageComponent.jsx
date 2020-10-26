@@ -6,7 +6,7 @@ import PartnersComponent from "../../components/PartnersComponent/PartnersCompon
 import QuestionComponent from "../../components/QuestionComponent/QuestionComponent";
 import FeedBackComponent from "../../components/FeedBackComponent/FeedBackComponent";
 import HowToComponent from "../../components/HowToComponent/HowToComponent";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import MiniBlogComponent from "../../components/MiniBlogComponent/MiniBlogComponent";
 
 const BorrowerPageComponent = (props) => {

@@ -7,7 +7,7 @@ import { Provider } from "react-redux";
 import BorrowerPageComponent from "./pages/BorrowerPage/BorrowerPageComponent";
 import { BrowserRouter } from "react-router-dom";
 
-import { Route, withRouter, Switch, Redirect, NavLink } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

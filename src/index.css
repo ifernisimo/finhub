@@ -1,3 +1,73 @@
+@font-face {
+  font-family: UniNeueBlack; /* Имя шрифта */
+  src: url("./assets/fonts/UniNeueBlack.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: UniNeueBlack-Italic; /* Имя шрифта */
+  src: url("./assets/fonts/UniNeueBlack-Italic.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: UniNeueBold; /* Имя шрифта */
+  src: url("./assets/fonts/UniNeueBold.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: UniNeueBold-Italic; /* Имя шрифта */
+  src: url("./assets/fonts/UniNeueBold-Italic.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: UniNeueBook; /* Имя шрифта */
+  src: url("./assets/fonts/UniNeueBook.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: UniNeueBook-Italic; /* Имя шрифта */
+  src: url("./assets/fonts/UniNeueBook-Italic.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: UniNeueHeavy; /* Имя шрифта */
+  src: url("./assets/fonts/UniNeueHeavy.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: UniNeueHeavy-Italic; /* Имя шрифта */
+  src: url("./assets/fonts/UniNeueHeavy-Italic.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: UniNeueLight; /* Имя шрифта */
+  src: url("./assets/fonts/UniNeueLight.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: UniNeueLight-Italic; /* Имя шрифта */
+  src: url("./assets/fonts/UniNeueLight-Italic.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: UniNeueRegular; /* Имя шрифта */
+  src: url("./assets/fonts/UniNeueRegular.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: UniNeueRegular-Italic; /* Имя шрифта */
+  src: url("./assets/fonts/UniNeueRegular-Italic.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: UniNeueThin; /* Имя шрифта */
+  src: url("./assets/fonts/UniNeueThin.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: UniNeueThin-Italic; /* Имя шрифта */
+  src: url("./assets/fonts/UniNeueThin-Italic.ttf"); /* Путь к файлу со шрифтом */
+}
+
 body {
   margin: 0;
   padding: 0;

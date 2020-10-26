@@ -1,0 +1,16 @@
+.newsBoard{
+    display: flex;
+    width: 80vw ;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.post{
+    display: flex;
+    width: 20vw;
+    height: 50vh;
+    flex-direction: column;
+    margin: 50px 20px;
+    border: 1px solid red;
+}
