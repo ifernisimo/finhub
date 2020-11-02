@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    margin-top: 120px;
+
+}
+
+.creditOnline{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-between;
+    margin-bottom: 500px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    width: 44vw;
+    padding: 60px;
+    box-sizing: border-box;
+    border: 6px solid #E5E5E5;
+    border-radius: 30px;
+    font-family: UniNeueRegular;
+    font-size: 18px;
+
+}
+
+.divider{
+    align-self: flex-start;
+    margin-bottom: 47px;
+}
+
+.lightPreText{
+    font-family: UniNeueRegular;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+    color: #CCCCCC;
+    text-transform: uppercase;
+}
+
+.blockTitleText{
+
+    font-family: UniNeueBold;
+    font-size: 50px;
+}
+
+.blueText{
+ color: #215273;
+}
+
+.greenText{
+color: #55C595;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.list_item{
+
+    line-height: 2;
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list_item span{
+    font-family: UniNeueRegular;
+    font-weight: 700;
+    font-size: 24px;
+    color: #CCCCCC;
+}
+
+.list_item p{
+    width: 90%;
+    margin: 0;
+}

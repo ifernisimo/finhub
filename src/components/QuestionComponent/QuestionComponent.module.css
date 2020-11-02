@@ -1,0 +1,28 @@
+.questions{
+    display: flex;
+    width: 90vw;
+    flex-direction: column;
+    margin: 0px auto;
+    padding-bottom: 120px;
+}
+
+.titleRow {
+    font-family: UniNeueBold;
+    font-size: 50px;
+    color: #215273;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.titleRow h2{
+    margin: 0;
+}
+
+.accordion_block{
+    width: 80vw;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+}

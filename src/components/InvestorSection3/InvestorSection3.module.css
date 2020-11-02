@@ -1,0 +1,138 @@
+.section3{
+    display: flex;
+    background: linear-gradient(132.29deg, #12364F 15.74%, #12364F 73.82%);
+    justify-content: center;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.investorAdvantages{
+    display: flex;
+    width: 70vw;
+    padding: 120px 20px 120px 160px;
+    background: #0F2C40;
+}
+
+.howToBecomeInvestor{
+    display: flex;
+    width: 30vw;
+    padding: 60px;
+    background: #0B2130;
+}
+
+.advantages_title h2{
+    font-family: UniNeueBold;
+    font-size: 50px;
+    color: #55C595;
+    width: 50%;
+    margin: 0 0 65px 0;
+    letter-spacing: 2px;
+
+}
+
+.bricks{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brick{
+    display: flex;
+    background: linear-gradient(132.29deg, #12364F 15.74%, #12364F 73.82%);
+    border-radius: 20px;
+    margin: 1%;
+    width: 13vw;
+    height: 13vw;
+    align-items: center;
+    color: #FFFFFF;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.brick_img{
+    display: flex;
+    width: 5vw;
+    height: 5vw;
+    border: 1px solid #55C595;
+    box-sizing: border-box;
+    border-radius: 5vw;
+    overflow: hidden;
+}
+
+.brick_title{
+    font-family: UniNeueRegular;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.etc{
+    font-family: UniNeueRegular;
+    color: #6D8EA5;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/**/
+
+.howBecome_title{
+    font-size: 50px;
+    color: #55C595;
+    font-family: UniNeueBold;
+    width: 60%;
+}
+
+.steps{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.step{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.step span{
+    font-family: UniNeueRegular;
+    font-size: 24px;
+}
+
+.step_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    border: 1px solid #55C595;
+    box-sizing: border-box;
+    margin: 20px 30px 20px 0;
+}
+
+.marker{
+    display: flex;
+    border: 1px solid;
+    height: 1.5vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    border-radius: 2vw;
+    box-shadow: 0px 4px 4px rgba(9, 199, 117, 0.22);
+    width: 1.5vw;
+    background: linear-gradient(101.57deg, #55C595 2.19%, #7DE495 77.96%);
+}
+
+.marker span{
+    font-size: 15px;
+}

@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: UniNeueRegular;
+    margin-bottom: 120px;
+}
+
+.howWorksPage{
+    width: 90vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.howWorks_title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.howWorks_title h1{
+    font-family: UniNeueBold;
+    color: #55C595;
+    margin: 20px 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+h4{
+    margin-top: 60px;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.route{
+    font-family: UniNeueRegular;
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #CCCCCC;
+}
+
+article {
+    width: 50vw;
+}
+
+.divider{
+    display: flex;
+    margin: 40px auto;
+}
+
+.takeCredit {
+    background: linear-gradient(101.57deg, #55C595 2.19%, #7DE495 77.96%);
+    border-radius: 40px;
+    width: 378px;
+    height: 76px;
+    border: none;
+    margin-top: 60px;
+}
+
+.takeCredit a{
+    font-family: UniNeueBold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+/**/
+
+.video{
+    position: relative;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    height: fit-content;
+    align-items: center;
+
+}
+
+.video video{
+    border-radius: 30px;
+    outline: none;
+    width: 50vw;
+}
+
+.overlay{
+    position: absolute;
+    display: flex;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    border-radius: 30px;
+    height: -webkit-fill-available;
+
+}
+
+.overlayHidden{
+    display: none;
+}
+
+.playBtn{
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.playBtnHidden{
+    display: none;
+}

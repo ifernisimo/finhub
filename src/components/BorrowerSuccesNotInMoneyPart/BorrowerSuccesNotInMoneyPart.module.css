@@ -1,0 +1,100 @@
+.succesNotInMoneyPart {
+    display: flex;
+    width: 40vw;
+    font-family: UniNeueRegular;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;
+    width: 50vw;
+    background: url("../../assets/images/BG_succes_not_in_money.svg") no-repeat center;
+
+}
+
+.title_row{
+    display: flex;
+    font-family: UniNeueBold;
+}
+
+.title_row h2{
+    margin: 0;
+    font-size: 50px;
+}
+
+
+
+.slider_title_text{
+    color: #215273;
+}
+
+.greenText{
+    color: #55C595;
+
+}
+
+.divider{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.joinBtns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:  100px 0;
+
+}
+
+.takeCreditBtn{
+    width: 378px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(101.57deg, #55C595 2.19%, #7DE495 77.96%);
+    border-radius: 40px;
+    border: none;
+    color: #FFFFFF;
+    justify-content: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.takeCreditBtn a, .becomeInvestorBtn a{
+
+    display: flex;
+    text-decoration: none;
+    font-family: UniNeueBold;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+
+}
+
+.takeCreditBtn a{
+    color: #FFFFFF;
+}
+
+.becomeInvestorBtn a{
+    color: #215273;
+}
+
+
+.becomeInvestorBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 378px;
+    height: 76px;
+    border:none;
+    color: #215273;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.p2p{
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blockTitle{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    width: 44vw;
+    align-items:flex-start;
+}
+
+.blockTitle h2{
+    margin: 0;
+    font-family: UniNeueBold;
+    font-size: 50px;
+    color: #215273;
+}
+
+.blockTitle h2 span{
+    color: #55C595;
+}
+
+.blockTitle p {
+    font-family: UniNeueRegular;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.divider{
+    margin: 40px 0;
+}
+
+/**/
+
+.video{
+    position: relative;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    height: fit-content;
+    align-items: center;
+}
+
+.video video{
+    border-radius: 30px;
+    outline: none;
+}
+
+.overlay{
+    position: absolute;
+    display: flex;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    border-radius: 30px;
+    height: -webkit-fill-available;
+
+}
+
+.overlayHidden{
+    display: none;
+}
+
+.playBtn{
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.playBtnHidden{
+    display: none;
+}

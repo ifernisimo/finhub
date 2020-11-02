@@ -1,0 +1,196 @@
+.containerMain{
+    display: flex;
+    background: #215273;
+}
+
+.registration{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin: 80px auto;
+    background: #FFFFFF;
+    font-family: UniNeueRegular;
+}
+
+.pageTitle{
+    margin-top: 60px;
+    font-family: UniNeueBold;
+    display: flex;
+
+    justify-content: center;
+}
+
+.pageTitle h1{
+    margin: 0;
+    color: #55C595;
+    font-size: 50px;
+}
+
+.whoAuth{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #CCCCCC;
+    font-size: 24px;
+    font-family: UniNeueBold;
+    margin-top: 10px;
+}
+
+.active {
+    color: #215273;
+}
+
+.name_field, .phone_field, email_field, .email_field, .confirmEmail_field, .password_field, .confirmPassword_field{
+    margin: 10px 0;
+}
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fieldCol{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.confirmOferta{
+    display: flex;
+    text-align: center;
+    font-size: 13px;
+    width: 80%;
+    color: #CCCCCC;
+    margin-top: 20px;
+}
+
+.registrationBtn{
+    display: flex;
+    background: linear-gradient(101.57deg, #55C595 2.19%, #7DE495 77.96%);
+    border-radius: 40px;
+    width: 378px;
+    height: 76px;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: UniNeueBold;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    margin: 30px 0 30px 0;
+}
+
+.registrationBtn span{
+    align-self: center;
+}
+
+
+.enterBtn {
+
+    font-size: 18px;
+
+    background: none;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+
+}
+
+.enterBtn a{
+    font-family: UniNeueBold;
+    color: #215273;
+    text-decoration: none;
+    background: none;
+}
+
+.leftSide{
+    padding-bottom: 30px;
+}
+
+.rightSide{
+    display: flex;
+    width: 80vw;
+    background: radial-gradient(54.27% 54.27% at 52.29% 47.79%, #205071 0%, #0C3958 100%);
+    position: relative;
+    padding-left: 60px;
+}
+
+/**/
+
+.howBecome_title{
+    font-size: 50px;
+    color: #55C595;
+    font-family: UniNeueBold;
+    margin-top: 60px;
+
+}
+
+
+.howBecome_title h4{
+    margin: 0 0 20px 0;
+}
+
+.steps{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    z-index: 6;
+}
+
+.step{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.step span{
+    font-family: UniNeueRegular;
+    font-size: 24px;
+}
+
+.step_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    border: 1px solid #55C595;
+    box-sizing: border-box;
+    margin: 20px 30px 20px 0;
+}
+
+.marker{
+    display: flex;
+    border: 1px solid;
+    height: 1.5vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    border-radius: 2vw;
+    box-shadow: 0px 4px 4px rgba(9, 199, 117, 0.22);
+    width: 1.5vw;
+    background: linear-gradient(101.57deg, #55C595 2.19%, #7DE495 77.96%);
+}
+
+.marker span{
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.triangle{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    z-index: 0;
+}

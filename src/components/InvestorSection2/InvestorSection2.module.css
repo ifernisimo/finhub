@@ -1,0 +1,39 @@
+.section2{
+    display: flex;
+    background: linear-gradient(132.29deg, #12364F 15.74%, #12364F 73.82%);
+    justify-content: center;
+    padding-bottom: 120px;
+
+}
+
+.container{
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blockText {
+    display: flex;
+    flex-direction: column;
+    width: 50vw  ;
+    text-align: center;
+}
+
+.blockText h4{
+    margin-top: 120px;
+    font-family: UniNeueBold;
+    font-size: 50px;
+    color: #55C595;
+
+}
+
+.blockText p {
+    margin-top: 48px;
+    font-family: UniNeueRegular;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 2;
+    letter-spacing: 1px;
+}

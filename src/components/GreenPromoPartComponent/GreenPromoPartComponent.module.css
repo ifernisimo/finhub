@@ -1,0 +1,113 @@
+.greenPromo{
+    background-color: #F5F5F5;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.outerBanner{
+    justify-content: flex-end;
+    display: flex;
+    position: absolute;
+    top: -368px;
+    width: 90%;
+    height: 671px;
+    background: linear-gradient(259.51deg, #55C595 3.04%, #7DE495 100.2%);
+    border-radius: 30px;
+    padding: 120px;
+
+    box-sizing: border-box;
+}
+
+.promoGirl {
+    position: absolute;
+    left: -50px;
+    top: -32px;
+    width: auto;
+}
+
+.getMoneyBlock{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.getMoneyBlock_title{
+    font-family: UniNeueBold;
+    font-size: 50px;
+}
+
+.blueText{
+    color: #215273;
+}
+
+.whiteText{
+    color: #ffffff;
+}
+
+.getMoneyBlock_text{
+    color: #ffffff;
+    font-family: UniNeueRegular;
+    line-height: 2;
+    font-size: 18px;
+    margin: 0;
+}
+
+.divider{
+    display: flex;
+    align-self: flex-start;
+    margin: 40px 0;
+}
+
+
+/**/
+
+.advantages{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 728px;
+    align-items: flex-end;
+}
+
+.advantageItem{
+    display: flex;
+    width: 20%;
+    padding: 0 20px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+
+.item img{
+    display: flex;
+    margin-right: 20px;
+}
+
+.item_img_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: UniNeueBold;
+    font-weight: 700;
+    color: #215273;
+    font-size: 24px;
+}
+
+.item p{
+    font-size: 18px;
+    font-family: UniNeueRegular;
+    color: #000000;
+    margin-top: 30px;
+}
+
+
+.items_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}

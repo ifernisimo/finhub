@@ -1,0 +1,57 @@
+.sectionOne{
+    display: flex;
+    justify-content:space-between;
+    background: #215273;
+    justify-content: center;
+    padding: 30px 0;
+    font-family: UniNeueBold;
+}
+
+.container{
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstBlock{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.imgSide{
+    display: flex;
+}
+
+.leftBlockText{
+    display: flex;
+    font-size: 120px;
+    color: #FFFFFF;
+    line-height: 1;
+}
+
+.becomeInvestor{
+    margin-top: 50px;
+    width: 378px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(101.57deg, #55C595 2.19%, #7DE495 77.96%);
+    border-radius: 40px;
+    border: none;
+    justify-content: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.becomeInvestor a{
+
+    display: flex;
+    text-decoration: none;
+    font-family: UniNeueBold;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    color: #ffffff;
+}

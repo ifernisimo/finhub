@@ -1,0 +1,78 @@
+.creditOnlineOnCard{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: 120px auto 0 auto;
+}
+
+.blockHeadTitleDescription{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blockHead_title{
+    display: flex;
+    width: 30vw;
+    font-family: UniNeueBold;
+    font-size: 50px;
+    color: #215273;
+}
+.blockHead_title h2{
+    margin: 0;
+}
+
+.blockHead_description{
+    position: relative;
+    display: flex;
+    width: 55vw;
+    font-size: 18px;
+    font-family: UniNeueRegular;
+    color: #000000;
+    line-height: 2;
+}
+
+.quotes{
+    position: absolute;
+    left: -70px;
+    top: 10px;
+}
+/**/
+
+.wall{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wall_column{
+    display: flex;
+    flex-direction: column;
+    width: 29vw;
+}
+
+.wall_item{
+    margin: 30px 0;
+    padding: 40px;
+    border: 6px solid #E5E5E5;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.wall_item h3{
+    font-family: UniNeueBold;
+    color: #55C595;
+    font-size: 24px;
+}
+
+.wall_item p{
+    font-family: UniNeueRegular;
+    font-size: 18px;
+}
+
+.wall_item span{
+    font-family: UniNeueBold;
+}
+

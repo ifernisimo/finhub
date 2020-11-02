@@ -1,13 +1,16 @@
-const REDUCER = "REDUCER";
+const SET_LANGUAGE = "SET_LANGUAGE";
 
-let initialState = {};
+let initialState = {
+  language: "RU",
+  registerAs: "borrower",
+};
 
 const mainReducer = (state = initialState, action) => {
   switch (action.type) {
-    case REDUCER: {
+    case SET_LANGUAGE: {
       return {
         ...state,
-        todoArray: [{ ...action.payload }, ...state.todoArray],
+        language: action.language,
       };
     }
 
@@ -18,8 +21,9 @@ const mainReducer = (state = initialState, action) => {
 
 //Action Creators
 
-export const addNewTodo = () => ({
-  type: REDUCER,
+export const setLanguage = (language) => ({
+  type: SET_LANGUAGE,
+  language,
 });
 
 //Thunk Creators

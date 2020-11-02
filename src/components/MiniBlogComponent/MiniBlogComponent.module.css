@@ -1,15 +1,81 @@
-
+.miniBlog{
+    background: radial-gradient(54.27% 54.27% at 52.29% 47.79%, #285B7D 0%, #0C3958 100%);
+    padding-bottom: 120px;
+}
 .container{
-    display: flex;
-    width: 70vw;
-    justify-content: center;
+    width: 90vw;
     margin: 0 auto;
-
 }
 
-.miniBlog{
+.title_row{
     display: flex;
-    width: 100%;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 62px;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.slider_title_text{
+    color: #ffffff;
+    font-family: UniNeueBold;
+    font-size: 50px;
+    margin: 0;
+}
+
+.greenText{
+    color: #55C595;
+}
+
+/**/
+
+.postsRow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 21vw;
+}
+
+.post h5{
+    font-size: 24px;
+    font-family: UniNeueBold;
+    color: #FFFFFF;
+}
+
+.post p {
+    font-family: UniNeueRegular;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.date{
+    font-family: UniNeueRegular;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.goToBlogBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.goToBlogBtn button{
+    display: flex;
+    width: 378px;
+    height: 76px;
+    background: linear-gradient(101.57deg, #55C595 2.19%, #7DE495 77.96%);
+    border-radius: 40px;
+    border:none;
+    outline: none;
+    color: #FFFFFF;
+    font-family: UniNeueRegular;
+    font-weight: 800;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
 }

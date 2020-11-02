@@ -17,11 +17,33 @@ import HelpPage from "./pages/HelpPage/HelpPage";
 import ContactsPage from "./pages/ContactsPage/ContactsPage";
 import BlogPage from "./pages/BlogPage/BlogPage";
 import AuthPage from "./pages/AuthPage/AuthPage";
+import LostPasswordComponent from "./components/LostPasswordComponent/LostPasswordComponent";
+import RegistrationComponent from "./components/RegistrationComponent/RegistrationComponent";
+import AuthorizationComponent from "./components/AuthorizatonComponent/AuthorizationComponent";
+import BlogInsidePage from "./pages/BlogInsidePage/BlogInsidePage";
+import GlossaryPage from "./pages/GlossaryPage/GlossaryPage";
 
 ReactDOM.render(
-  <Provider store={store}>
-    <BrowserRouter>
+  <BrowserRouter>
+    <Provider store={store}>
       <Switch>
+        <Route exect path="/post" render={() => <BlogInsidePage />} />
+        <Route
+          exect
+          path="/registration"
+          render={() => <RegistrationComponent />}
+        />
+        <Route
+          exect
+          path="/forgottenPassword"
+          render={() => <LostPasswordComponent />}
+        />
+        <Route
+          exect
+          path="/authorization"
+          render={() => <AuthorizationComponent />}
+        />
+        <Route exect path="/glossary" render={() => <GlossaryPage />} />
         <Route exect path="/investor" render={() => <InvestorPage />} />
         <Route exect path="/howitworks" render={() => <HowWorksPage />} />
         <Route exect path="/help" render={() => <HelpPage />} />
@@ -30,7 +52,7 @@ ReactDOM.render(
         <Route exect path="/auth" render={() => <AuthPage />} />
         <Route exect path="/" render={() => <BorrowerPageComponent />} />
       </Switch>
-    </BrowserRouter>
-  </Provider>,
+    </Provider>
+  </BrowserRouter>,
   document.getElementById("root")
 );

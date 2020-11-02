@@ -1,4 +1,65 @@
 .faq{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    width: 90vw;
+    margin: 60px auto;
+    font-family: UniNeueRegular;
+}
+
+.title span{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #CCCCCC;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+}
+
+.faq h1{
+    text-align: center;
+    margin: 10px 0 60px 0;
+}
+
+.accordion_block{
+    display: flex;
+    flex-direction: row;
+}
+
+.questionTopics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.accordion{
+    display: flex;
+    flex-direction: column;
+    width: 44vw ;
+}
+
+.blockTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.blockTitle h4{
+    margin: 0;
+}
+
+.divider{
+    margin: 40px 0;
+}
+
+.popular{
+    margin-bottom: 5vh;
+}
+
+.investment{
+    margin-bottom: 5vh;
+}
+
+.investTracking{
+    margin-bottom: 5vh;
 }

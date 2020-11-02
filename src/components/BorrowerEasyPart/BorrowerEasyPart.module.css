@@ -1,0 +1,176 @@
+.identifyingBenefits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.blockTitle{
+    display: flex;
+    flex-direction: column;
+}
+
+.blockTitle_title{
+    font-family: UniNeueBold;
+    font-size: 50px;
+    display: flex;
+    align-self: center;
+    color: #215273;
+    margin: 120px 0 30px 0;
+}
+
+.requireText{
+    font-family: UniNeueRegular;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.selectedAdvantages__info{
+    width: 80%;
+}
+
+.info_items{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+    justify-content: space-between;
+}
+
+.item{
+    width: 20%;
+}
+
+.circle{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    flex-direction: column;
+    border: 1px solid #55C595;
+    box-sizing: border-box;
+    border-radius: 60px;
+    position: relative;
+}
+
+.marker{
+    position: absolute;
+    display: flex;
+    width: 21px;
+    height: 21px;
+    background: linear-gradient(101.57deg, #55C595 2.19%, #7DE495 77.96%);
+    box-shadow: 0px 4px 4px rgba(9, 199, 117, 0.22);
+    border-radius: 21px;
+    justify-content: center;
+    align-items: center;
+    font-family: UniNeueBold;
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.item h4{
+    font-size: 24px;
+    line-height: 160%;
+    font-family: UniNeueBold;
+    color: #215273;
+
+}
+
+/**/
+
+.wayToDream{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90vw;
+    background-color: #215273;
+    border-radius: 30px;
+}
+
+.wayToDream__infoBlock{
+    background-image: url("../../assets/images/BG_wayToDream.svg");
+    background-repeat: unset;
+    background-size: cover;
+
+    color: #ffffff;
+    border-radius: 30px;
+   box-sizing: border-box;
+}
+
+.blockTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.blockTitle h2{
+    font-family: UniNeueBold;
+    font-size: 50px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.greenTitleText{
+    color: #55C595;
+}
+
+.divider{
+    margin-bottom: 48px;
+}
+
+.blockText{
+    display: flex;
+    font-family: UniNeueRegular;
+    font-size: 18px;
+    text-align: center;
+    margin:auto auto 60px auto;
+    width: 70% ;
+    letter-spacing: 1px;
+}
+
+.joinBtns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:  100px 0;
+
+}
+
+.getCreditBtn{
+    width: 378px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(101.57deg, #55C595 2.19%, #7DE495 77.96%);
+    border-radius: 40px;
+    border: none;
+    justify-content: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.getCreditBtn a, .becomeInvestor a{
+
+    display: flex;
+ text-decoration: none;
+font-family: UniNeueBold;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.becomeInvestor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 378px;
+    height: 76px;
+    border:none;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+    cursor: pointer;
+}

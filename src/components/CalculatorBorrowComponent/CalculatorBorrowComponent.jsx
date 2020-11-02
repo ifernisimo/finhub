@@ -1,16 +1,20 @@
 import React from "react";
+import styles from "./CalculatorBorrowComponent.module.css";
+
+import triangle from "../../assets/images/borrower_calcBlock_triangle.svg";
+
 const CalculatorBorrowComponent = (props) => {
-  const handleMoneyRange = (e) => {
-    console.log(e.target.value);
-  };
-
-  const handleDayRange = (e) => {
-    console.log(e.target.value);
-  };
-
   return (
     <>
-      <div className="borrowerCalculator">Калькулятор тут</div>
+      <div className={styles.borrowerCalculator}>
+        <div className={styles.leftBlock}>
+          <img src={triangle} alt="background" />
+          <span className={styles.leftBlockText}>
+            Выгодные условия кредитования
+          </span>
+        </div>
+        <div className={styles.calculator}>Калькулятор будет тут</div>
+      </div>
     </>
   );
 };

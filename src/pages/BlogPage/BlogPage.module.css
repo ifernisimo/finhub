@@ -1,16 +1,73 @@
-.newsBoard{
+.container{
     display: flex;
-    width: 80vw ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blog{
+    display: flex;
+    width: 90vw;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subtitle{
+    font-family: UniNeueRegular;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #CCCCCC;
+    margin-top: 60px;
+}
+
+.title h1{
+    font-family: UniNeueBold;
+    color: #55C595;
+    margin: 10px 0;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.blogWall{
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 auto;
     justify-content: space-between;
 }
 
-.post{
+.blog_post{
     display: flex;
-    width: 20vw;
-    height: 50vh;
     flex-direction: column;
-    margin: 50px 20px;
-    border: 1px solid red;
+    width: 21vw;
+    margin-bottom: 5vh;
 }
+
+.post_img img{
+    display: flex;
+    width: 100%;
+
+}
+
+.postTitle{
+    font-family: UniNeueBold;
+    font-size: 24px;
+}
+
+.description{
+    font-family: UniNeueRegular;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.date{
+    font-family: UniNeueRegular;
+    color: #CCCCCC;
+    font-family: 15px;
+}
+

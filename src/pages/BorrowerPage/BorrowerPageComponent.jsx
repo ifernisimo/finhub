@@ -1,318 +1,35 @@
 import React from "react";
-import HeaderComponent from "../../components/HeaderComponent/HeaderComponent";
 import FooterComponent from "../../components/FooterComponent/FooterComponent";
 import styles from "./BorrowerPageComponent.module.css";
 import PartnersComponent from "../../components/PartnersComponent/PartnersComponent";
 import QuestionComponent from "../../components/QuestionComponent/QuestionComponent";
 import FeedBackComponent from "../../components/FeedBackComponent/FeedBackComponent";
 import HowToComponent from "../../components/HowToComponent/HowToComponent";
-import { NavLink } from "react-router-dom";
 import MiniBlogComponent from "../../components/MiniBlogComponent/MiniBlogComponent";
+import HeaderComponentContainer from "../../components/HeaderComponent/HeaderComponentContainer";
+import CalculatorBorrowComponent from "../../components/CalculatorBorrowComponent/CalculatorBorrowComponent";
+import BorrowerTakeCreditOnlineComponent from "../../components/BorrowerTakeCreditOnlineComponent/BorrowerTakeCreditOnlineComponent";
+import GreenPromoPartComponent from "../../components/GreenPromoPartComponent/GreenPromoPartComponent";
+import BorrowerEasyPart from "../../components/BorrowerEasyPart/BorrowerEasyPart";
+import BorrowerCreditsOnlineOnCard from "../../components/BorrowerCreditsOnlineOnCard/BorrowerCreditsOnlineOnCard";
+import BorrowerP2pPart from "../../components/BorrowerP2pPart/BorrowerP2pPart";
+import BorrowerSuccesNotInMoneyPart from "../../components/BorrowerSuccesNotInMoneyPart/BorrowerSuccesNotInMoneyPart";
 
 const BorrowerPageComponent = (props) => {
   return (
     <>
-      <HeaderComponent />
+      <HeaderComponentContainer />
+      <CalculatorBorrowComponent />
       <div className={styles.content}>
-        <div className="creditOnline">
-          <h1>Взять кредит на карту онлайн</h1>
-          <p>
-            <b>Взять кредит онлайн</b> - просто и выгодно с FINHUB. Рассчитайте
-            стоимость ежемесячных выплат, воспользовавшись калькулятором
-            платежей. Выберете желаемую сумму и срок займа, и мы рассчитаем
-            размер платежа и дату погашения. Если вы хотите быстро оформить
-            кредит онлайн, нажмите кнопку «взять кредит»
-          </p>
-          <h1>Калькулятор платежа по кредиту</h1>
-          <article>
-            Чем чаще вы берете кредит у нас, тем ниже ваша кредитная ставка.
-            Выплачивая каждый раз кредит вовремя, вы улучшаете свою кредитную
-            историю и повышаете ваш кредитный рейтинг. Тем самым вы становитесь
-            надежным партнером для нас и для инвесторов, что дает нам
-            возможность снижать процентную ставку специально для вас.
-          </article>
-          <h1>FINHUB — кредиты онлайн на карту</h1>
-          <div className="block1">
-            <img src="#" alt="" />
-            <article>
-              FINHUB первый в Украине оператор взаимных кредитов — это когда
-              люди, а не банки, дают займы тем, кому они необходимы. Такой
-              подход дает нам возможность предлагать вам одни из самых низких
-              ставок по кредитам в Украине.
-            </article>
-          </div>
-        </div>
-        <div className="purpleSeparator">
-          <h4>
-            Онлайн кредит до 30 000 гривен, до 12 месяцев, без скрытых комиссий
-          </h4>
-          <button>
-            <NavLink to={"/auth"}>Получить кредит</NavLink>
-          </button>
-        </div>
-        <div className="creditAdvantages">
-          <div className="blockTitle">
-            <img src="#" alt="" />
-            <h1>Преимущества кредита</h1>
-          </div>
-          <div className="advantageItem">
-            <div className="item">
-              <img src="" alt="" />
-              <h5>Быстро</h5>
-            </div>
-          </div>
-          <div className="advantageItem">
-            <div className="item">
-              <img src="" alt="" />
-              <h5>Легко</h5>
-            </div>
-          </div>
-          <div className="advantageItem">
-            <div className="item">
-              <img src="" alt="" />
-              <h5>Честно</h5>
-            </div>
-          </div>
-          <div className="advantageItem">
-            <div className="item">
-              <img src="" alt="" />
-              <h5>Понятно</h5>
-            </div>
-          </div>
-          <div className="advantageItem">
-            <div className="item">
-              <img src="" alt="" />
-              <h5>Надежно</h5>
-            </div>
-          </div>
-        </div>
-
-        <div className="identifyingBenefits">
-          <div className="blockTitle">
-            <img src="#" alt="" />
-            <h1>FINHUB — определенные преимущества</h1>
-          </div>
-          <div className="selectedAdvantages__info">
-            <div className="info-text"></div>
-            <div className="info-items">
-              <div className="item">
-                <img src="" alt="" />
-                <h4>Наличие банковской карты</h4>
-              </div>
-              <div className="item">
-                <img src="" alt="" />
-                <h4>Возраст от 21 до 65 лет</h4>
-              </div>
-              <div className="item">
-                <img src="" alt="" />
-                <h4>Паспорт и ИНН</h4>
-              </div>
-              <div className="item">
-                <img src="" alt="" />
-                <h4>Телефон и email</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="wayToDream">
-          <img src="" alt="" />
-          <div className="wayToDream__infoBlock">
-            <div className="blockTitle">
-              <img src="#" alt="" />
-              <h1>FINHUB — ваш путь к мечте</h1>
-            </div>
-            <p>
-              FINHUB поддерживает всех, кто движется к своей мечте, к своим
-              целям. Мы знаем, как сложно достигать результатов, каких усилий
-              стоит результат, и что цена успеха не исчисляется в деньгах. Для
-              нас важно, чтобы каждый кредит, который получен благодаря нашей
-              платформе, давал вам возможность приблизится к своей цели, перейти
-              на новый рубеж, стать лучше чем вчера и не останавливаться на
-              достигнутом.
-            </p>
-            <div className="joinBtns">
-              <button>
-                <NavLink to={"/auth"}>Получить кредит</NavLink>
-              </button>
-              <button>
-                <NavLink to={"/investor"}>Стать инвестором</NavLink>
-              </button>
-            </div>
-          </div>
-        </div>
+        <BorrowerTakeCreditOnlineComponent />
+        <GreenPromoPartComponent />
+        <BorrowerEasyPart />
         <HowToComponent />
-        <div className="creditOnlineOnCard">
-          <div className="blockTitle">
-            <img src="#" alt="" />
-            <h1>Кредит онлайн на карту</h1>
-          </div>
-          <p>
-            В жизни иногда случаются ситуации, когда срочно необходимо взять
-            кредит, но нет времени на ожидание решения банка. Зачастую такое
-            происходит, когда неожиданно сломалось транспортное средство или
-            потребовались дорогостоящие лекарства.В Finhub вы можете оформить
-            кредит онлайн в любой момент. Для этого достаточно просто подать
-            заявку, а спустя некоторое время финансы поступят на счет вашей
-            банковской карты.Так как пользователь оформляет кредит онлайн, не
-            существует никакой привязки к месту. Необходим только доступ в
-            интернет и, например, смартфон или ноутбук. То есть можно подать
-            запрос на оформление кредита, находясь при этом в любом городе.
-          </p>
-          <div className="thin-title">Особенности кредита</div>
-          <p>
-            Возможность взять кредит онлайн позволяет заявителю подать запрос на
-            получение денег, на которые будут начисляться проценты. Спустя
-            заранее указанный срок, пользователь должен вернуть долг и
-            начисленные проценты.Кредит на карту в сервисе Finhub — это способ
-            быстро и без лишних трудностей получить нужную сумму средств на
-            выгодных условиях. Если вы соответствуете условиям нашего сервиса,
-            онлайн кредит будет предоставлен вам в максимально сжатые сроки.
-          </p>
-          <div className="thin-title">Преимущества кредитования в Finhub</div>
-          <p>
-            Возможность оформить кредит через интернет — не единственный плюс
-            займов в сервисе Finhub. Другими сильными сторонами сотрудничества
-            являются такие особенности:
-          </p>
-          <ul>
-            <li>заявки обрабатываются за минимально возможное время;</li>
-            <li>
-              можно получить кредит онлайн без звонков и лишних действий — вам
-              понадобится только доступ в сеть и банковская карта;
-            </li>
-            <li>отсутствие скрытых платежей и акционных процентов;</li>
-            <li>
-              ставка будет уменьшаться с каждым взятым кредитом, который вы
-              успешно закроете в срок;
-            </li>
-            <li>точные и быстрые расчеты по актуальным процентным ставкам;</li>
-            <li>
-              данные пользователей надежно защищены благодаря использованию на
-              нашем сайте передовых технологий.
-            </li>
-          </ul>
-          <p>
-            Вы сможете взять деньги в кредит, просто подав заявку.
-            Воспользуйтесь калькулятором на веб-портале для предварительного
-            расчета суммы. После этого смело подавайте запрос на онлайн-кредит.
-          </p>
-          <div className="thin-title">Условия займа</div>
-          <p>
-            Оформляя кредит онлайн в Украине через наш сервис, вы сможете
-            получить деньги на выгодных условиях:
-          </p>
-          <ul>
-            <li>
-              Оформить кредит онлайн можно на любую сумму от 1 000 до 30 000
-              гривен.
-            </li>
-            <li>Процентная ставка составляет от 0,01% в день.</li>
-            <li>Открыть онлайн кредит можно на срок от 1 до 12 месяцев.</li>
-          </ul>
-          <div className="thin-title">Как оформить услугу</div>
-          <p>
-            Чтобы оформить кредит онлайн, достаточно выполнить три действия:
-          </p>
-          <ul>
-            <li>
-              <b>Заполните заявку на взятие кредита онлайн.</b>{" "}
-              Зарегистрируйтесь на онлайн-портале Финхаб. Данная процедура
-              займет у вас около пяти минут. Для успешной регистрации
-              потребуется два документа — паспорт и идентификационный код, а
-              также фотография и мобильный телефон. Укажите в регистрационной
-              форме номер телефона, адрес электронной почты, а затем придумайте
-              пароль. В следующий раз вы сможете взять кредит онлайн буквально в
-              два клика.
-            </li>
-            <li>
-              <b>Выберите параметры.</b> Укажите сумму и срок, на который
-              желаете оформить кредит. Система в автоматическом режиме примет
-              решение по вашему запросу за минимально возможный срок.
-            </li>
-            <li>
-              <b>Дождитесь платежа и получите финансы на банковскую карту.</b>{" "}
-              Когда система проверит все данные и обработает транзакцию,
-              денежные средства будут зачислены на указанную вами банковскую
-              карту. На этом оформление онлайн кредита будет окончено.
-            </li>
-          </ul>
-          <p>
-            Соблюдайте сроки погашения, в противном случае взять кредит онлайн
-            вы не сможете. В зависимости от продолжительности кредитования,
-            предусмотрена возможность закрытия долга разовым платежом или
-            ежемесячной оплатой.
-          </p>
-          <div className="thin-title">Как погасить задолженность</div>
-          <p>
-            Если вы получили кредит онлайн на карту, его необходимо погасить в
-            течение оговоренного срока. Сделать это можно на сайте Finhub:
-          </p>
-          <ul>
-            <li>авторизуйтесь в личный кабинет на веб-портале Finhub.ua;</li>
-            <li>
-              в профиле вы увидите персональную информацию по оформленному
-              кредиту, а также плановую сумму средств к погашению;
-            </li>
-            <li>
-              выберите банковскую карту, с которой планируете совершить платеж;
-            </li>
-            <li>
-              введите необходимые данные, а затем следуйте указаниям системы для
-              осуществления платежа и закрытия долга.
-            </li>
-          </ul>
-          <p>
-            После этого вы сможете снова деньги в кредит, но уже на более
-            выгодных условиях. Чем чаще вы берете заем, тем ниже становится
-            процентная ставка по всем последующим кредитным обязательствам.
-          </p>
-        </div>
+        <BorrowerCreditsOnlineOnCard />
         <FeedBackComponent />
-        <div className="p2p">
-          <div className="blockTitle">
-            <img src="#" alt="" />
-            <h1>P2P кредитование — обучающий ролик</h1>
-          </div>
-        </div>
+        <BorrowerP2pPart />
         <MiniBlogComponent />
-        <div className="successNotInMoney">
-          <img src="" alt="" />
-          <div className="wayToDream__infoBlock">
-            <div className="blockTitle">
-              <img src="#" alt="" />
-              <h1>Успех не исчисляется в деньгах</h1>
-            </div>
-            <p>
-              Мы считаем, что деньги не должны быть самой целью, но их важно
-              правильно использовать как инструмент для самореализации. Ведь у
-              каждого из нас есть амбиции и силы, чтобы их воплотить. Главное
-              увидеть возможность и вовремя ею воспользоваться.
-            </p>
-            <div className="joinBtns">
-              <button>
-                <NavLink to={"/auth"}>Получить кредит</NavLink>
-              </button>
-              <button>
-                <NavLink to={"/investor"}>Стать инвестором</NavLink>
-              </button>
-            </div>
-          </div>
-          <div className="blogBlock">
-            <div className="blogBlock__item">
-              <img src="" alt="" />
-              <div className="blogItemContent"></div>
-            </div>
-            <div className="blogBlock__item">
-              <img src="" alt="" />
-              <div className="blogItemContent"></div>
-            </div>
-            <div className="blogBlock__item">
-              <img src="" alt="" />
-              <div className="blogItemContent"></div>
-            </div>
-          </div>
-        </div>
-        <div className="advantagesAndPartners"></div>
+        <BorrowerSuccesNotInMoneyPart />
         <PartnersComponent />
         <QuestionComponent />
       </div>

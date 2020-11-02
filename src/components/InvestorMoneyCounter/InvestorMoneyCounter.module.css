@@ -1,0 +1,115 @@
+.moneyCounter{
+    display: flex;
+    flex-direction: column;
+    width: 50vw ;
+    justify-content: space-between;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding: 30px;
+    border-top: 1px solid #2F536B;
+}
+
+.counters_row{
+    font-family: UniNeueBold;
+    font-size: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 22px;
+}
+
+.dots{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top:  1px solid #2F536B;
+    position: relative;
+}
+
+
+
+.dot_text{
+    display: flex;
+    position: absolute;
+    font-family: UniNeueRegular;
+    font-weight: 500;
+    color: #CCCCCC;
+    font-size: 15px;
+}
+
+.counterHome .iterator, .counterBank .iterator{
+    color: #215273;
+}
+
+.counterThere .iterator{
+    color: #55C595;
+}
+
+.home{
+    display: flex;
+}
+
+
+.home .dot_text{
+    top:15px;
+    left:6%;
+}
+
+.home .dot{
+    position: absolute;
+    top:-6px;
+    left: 10%;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #215273;
+}
+
+/**/
+
+.bank{
+    display: flex;
+}
+
+
+.bank .dot_text{
+    top:15px;
+    left:48%;
+}
+
+.bank .dot{
+    position: absolute;
+    top:-6px;
+    left: 50%;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #215273;
+}
+
+/**/
+
+
+.project{
+    display: flex;
+}
+
+
+.project .dot_text{
+    top:15px;
+    left:88%;
+}
+
+.project .dot{
+    position: absolute;
+    top:-6px;
+    left: 90%;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #55C595;
+}

@@ -1,0 +1,30 @@
+.borrowerCalculator{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftBlock{
+    position: relative;
+    width: 60vw;
+    background-color: #215273;
+}
+
+.leftBlock img{
+    height: 519px;
+    margin: 40px 0;
+}
+
+.leftBlockText{
+    position: absolute;
+    font-family: UniNeueBold;
+    font-size: 120px;
+    color: #ffffff;
+    width: 60%;
+    line-height: 90%;
+    top:100px;
+    left: 280px;
+}
+
+.calculator{
+    width: 40vw;
+}

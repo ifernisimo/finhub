@@ -1,0 +1,40 @@
+
+.contactMe{
+    box-sizing: border-box;
+    display: flex;
+    width: 100% ;
+    padding: 3vw;
+    background: #153850;
+    border-radius: 30px;
+    flex-direction: column;
+}
+
+.contactMe h4  {
+    display: flex;
+    align-self: center;
+    font-family: UniNeueBold;
+    margin: 0;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.enterBtn{
+    display: flex;
+    background: linear-gradient(101.57deg, #55C595 2.19%, #7DE495 77.96%);
+    border-radius: 40px;
+    width: 378px;
+    height: 76px;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: UniNeueBold;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    margin: 30px 0 30px 0;
+}
+
+.enterBtn span{
+    align-self: center;
+}

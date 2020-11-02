@@ -1,0 +1,67 @@
+.section5{
+    display: flex;
+    background: #0F2C40;
+    padding: 120px 0;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.title_row{
+    color: #55C595;
+    font-family: UniNeueBold;
+    font-size: 50px;
+}
+
+.title_row h2{
+    margin: 0;
+}
+
+.sides{
+    font-family: UniNeueRegular;
+    letter-spacing: 1px;
+    display: flex;
+justify-content: space-between;
+    flex-direction: row;
+    color: #FFFFFF;
+}
+
+.leftSide{
+    font-size: 18px;
+    display: flex;
+    width: 55vw;
+    line-height: 1.5;
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.rightSideTitle{
+    font-family: UniNeueBold;
+    font-size: 24px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.links span{
+    color: #6D8EA5;
+    margin: 10px 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.links span:hover{
+    color: #FFFFFF;
+    font-size: 17px;
+}

@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: UniNeueRegular;
+}
+
+.postPage{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.post_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.route{
+    color: #CCCCCC;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+}
+
+
+.post_title a{
+    text-decoration: none;
+    color: #215273;
+    display: flex;
+    align-items: center;padding: 0 20px;font-family: UniNeueBold;
+
+}
+
+.backToBlog{
+    display: flex;
+    flex-direction: row;
+    background: none;
+    outline: none;
+    align-items: center;
+    border:none;
+    text-transform: uppercase;
+
+}
+
+h1{
+    color: #55C595;
+    font-size: 50px;
+    font-family: UniNeueBold;
+    margin: 30px 0 0 0;
+}
+
+.post_img{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.post_img img{
+    width: 70vw;
+    border-radius: 1vw;
+}
+
+.date{
+    font-weight: 500;
+    font-size: 15px;
+    color: #CCCCCC;
+    margin: 10px 0;
+}
+
+h4{
+    font-family: UniNeueBold;
+    font-size: 24px;
+    color: #215273;
+    align-self: baseline;
+}
+
+.postText{
+    font-size: 18px;
+}

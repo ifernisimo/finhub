@@ -1,0 +1,11 @@
+.signInOut{
+    display: flex;
+    background: #215273;
+}
+
+.container{
+    display: flex;
+    width: 90vw;
+    margin: 0 auto  ;
+    flex-direction: column;
+}
