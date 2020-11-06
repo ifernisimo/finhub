@@ -86,3 +86,52 @@
     color: #215273;
     font-size: 24px;
 }
+
+
+
+
+
+@media only screen and (max-width : 800px) {
+
+    .block{
+        padding: 20px;
+        border: 3px solid #E5E5E5;
+    }
+
+    .block h4{
+        font-size: 35px;
+        margin: 20px 0;
+    }
+
+    .divider{
+        margin-bottom: 20px;
+    }
+
+    .list_item span{
+        margin-right: 10px;
+
+    }
+
+    .list_item p{
+        line-height: 1.5;
+    }
+
+}
+
+
+@media only screen and (max-width : 450px) {
+
+    .block h4{
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .list_item p span{
+        font-size: 14px;
+
+    }
+
+    .list_item p{
+        font-size: 12px;
+    }
+}

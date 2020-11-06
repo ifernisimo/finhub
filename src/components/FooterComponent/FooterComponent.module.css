@@ -108,3 +108,63 @@ border-bottom: 1px solid #2F536B;
     color: #6D8EA5;
     font-size: 15px;
 }
+
+
+@media only screen and (max-width : 1800px) {
+    .underlineInfo button{
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width : 1500px) {
+    .underlineInfo button{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width : 1333px) {
+    .underlineInfo button{
+        font-size: 10px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width : 1100px) {
+    .underlineInfo button{
+        display: none;
+    }
+
+    .logoCol img{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width : 870px) {
+    .footer_nav{
+        display: none;
+    }
+
+    .container{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .logoCol{
+        width: 100%;
+        align-items: center;
+    }
+
+    .etcInfo{
+        width: 100%;
+    }
+
+    .underlineInfo{
+        justify-content: center;
+    }
+
+    .abovelineInfo p{
+        padding-bottom: 10px;
+    }
+}

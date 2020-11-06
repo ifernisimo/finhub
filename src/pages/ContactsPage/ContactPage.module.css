@@ -73,3 +73,36 @@ iframe{
 .rightForm{
     width: 30vw;
 }
+
+
+@media only screen and (max-width : 950px) {
+    .contact_form{
+        flex-direction: column;
+    }
+
+    .mapFrame{
+        width: 90vw;
+        margin-bottom: 25px;
+    }
+
+    .rightForm{
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width : 750px) {
+    .data_title{
+        font-size: 12px;
+    }
+    .data_info{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width : 570px) {
+    .contactData_row{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+

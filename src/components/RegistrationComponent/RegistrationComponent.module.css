@@ -164,6 +164,8 @@
     border: 1px solid #55C595;
     box-sizing: border-box;
     margin: 20px 30px 20px 0;
+
+
 }
 
 .marker{
@@ -193,4 +195,48 @@
     bottom: 0;
     right:0;
     z-index: 0;
+}
+
+@media only screen and (max-width : 1400px) {
+    .step{
+        flex-direction: column;
+    }
+
+    .step span{
+        font-size: 18px;
+    }
+
+    .marker span{
+        font-size: 12px;
+    }
+
+    .rightSide{
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .triangle{
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width : 1000px) {
+    .leftSide{
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width : 1000px) {
+    .rightSide{
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    .registrationBtn{
+        width: 260px;
+        height: 60px;
+    }
 }

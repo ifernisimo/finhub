@@ -174,3 +174,100 @@ font-family: UniNeueBold;
     border-radius: 40px;
     cursor: pointer;
 }
+
+
+/**/
+
+@media only screen and (max-width : 1555px) {
+
+    .outerBanner{
+        height: auto;
+        padding: 45px;
+    }
+
+    .promoGirl {
+        width: 500px;
+    }
+
+    .getMoneyBlock{
+        margin-right: 100px;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width : 1250px) {
+
+
+}
+
+@media only screen and (max-width : 1120px) {
+
+
+}
+
+
+@media only screen and (max-width : 980px) {
+
+    .blockTitle h2{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width : 740px) {
+
+    .info_items{
+        margin-bottom: 60px;
+    }
+
+    .item h4{
+        font-size: 20px;
+    }
+
+    .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+@media only screen and (max-width : 600px) {
+    .item h4{
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .blockTitle h2{
+        font-size: 34px;
+        margin: 20px 0;
+    }
+
+    .getCreditBtn{
+        width: 220px;
+        height: 60px;
+    }
+
+    .becomeInvestor{
+        width: 220px;
+        height: 60px;
+    }
+
+    .joinBtns{
+        margin: 50px 0;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+
+    .item h4{
+        font-size: 12px;
+    }
+
+    .info_items{
+        margin-bottom: 30px;
+    }
+}

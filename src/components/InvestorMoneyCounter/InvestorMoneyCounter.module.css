@@ -113,3 +113,70 @@
     border-radius: 10px;
     background: #55C595;
 }
+
+
+@media only screen and (max-width : 1700px) {
+
+    .counters_row{
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width : 1400px) {
+
+    .counters_row{
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width : 1200px) {
+
+    .counters_row{
+        font-size: 18px;
+    }
+
+}
+
+
+@media only screen and (max-width : 1000px) {
+
+    .moneyCounter{
+        width: 75vw;
+    }
+
+    .counters_row{
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width : 770px) {
+
+    .moneyCounter{
+        width: 85vw;
+    }
+
+    .counters_row{
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width : 550px) {
+
+    .moneyCounter{
+        width: 100vw;
+    }
+
+    .counters_row{
+        font-size: 10px;
+    }
+
+
+    .dot_text{
+        font-size: 8px;
+    }
+
+}

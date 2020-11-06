@@ -54,7 +54,7 @@ const FeedBackComponent = (props) => {
                     </span>
                   </div>
                 </div>
-                <div className="comment_text">
+                <div className={styles.comment_text}>
                   <p>
                     Я занимаюсь ремонтом автомобилей, иногда возникает
                     необходимость купить необходимые для ремонта детали, а
@@ -81,7 +81,7 @@ const FeedBackComponent = (props) => {
                     </span>
                   </div>
                 </div>
-                <div className="comment_text">
+                <div className={styles.comment_text}>
                   <p>
                     Я занимаюсь ремонтом автомобилей, иногда возникает
                     необходимость купить необходимые для ремонта детали, а
@@ -108,7 +108,7 @@ const FeedBackComponent = (props) => {
                     </span>
                   </div>
                 </div>
-                <div className="comment_text">
+                <div className={styles.comment_text}>
                   <p>
                     Я занимаюсь ремонтом автомобилей, иногда возникает
                     необходимость купить необходимые для ремонта детали, а
@@ -134,7 +134,7 @@ const FeedBackComponent = (props) => {
                     </span>
                   </div>
                 </div>
-                <div className="comment_text">
+                <div className={styles.comment_text}>
                   <p>
                     Я занимаюсь ремонтом автомобилей, иногда возникает
                     необходимость купить необходимые для ремонта детали, а

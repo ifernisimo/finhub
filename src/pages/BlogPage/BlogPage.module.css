@@ -68,6 +68,25 @@
 .date{
     font-family: UniNeueRegular;
     color: #CCCCCC;
-    font-family: 15px;
+    font-size: 15px;
 }
 
+@media only screen and (max-width : 800px) {
+    .blog_post{
+        width: 44vw;
+    }
+}
+
+@media only screen and (max-width : 450px) {
+
+    .subtitle{
+        margin-top: 30px;
+    }
+
+    .blogWall{
+        flex-direction: column;
+    }
+    .blog_post{
+        width: 90vw;
+    }
+}

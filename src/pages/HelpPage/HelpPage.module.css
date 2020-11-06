@@ -63,3 +63,14 @@
 .investTracking{
     margin-bottom: 5vh;
 }
+
+
+@media only screen and (max-width : 750px) {
+    .questionTopics{
+        flex-direction: column;
+    }
+
+    .accordion{
+        width: 90vw;
+    }
+}

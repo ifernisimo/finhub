@@ -25,10 +25,12 @@
 
 .logo_row{
     display: flex;
+    justify-content: center;
 }
 
 .logo_row img{
     margin: 20px;
+    width: 20%;
 }
 
 .advantages{
@@ -83,3 +85,10 @@
     font-size: 18px;
 }
 
+@media only screen and (max-width : 860px) {
+
+    .ourPartners{
+        display: none;
+    }
+
+}

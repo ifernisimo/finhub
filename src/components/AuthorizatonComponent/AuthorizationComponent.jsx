@@ -15,6 +15,11 @@ const AuthorizationComponent = (props) => {
       "& .MuiInput-underline:after": {
         borderBottomColor: "green",
       },
+
+      "& .MuiFormControl-root": {
+        width: "100%",
+      },
+
       "& label.Mui-focused": {
         color: "green",
       },

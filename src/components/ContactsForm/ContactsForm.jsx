@@ -28,7 +28,7 @@ const ContactsForm = ({ formHeadTitle }) => {
       },
 
       "& .MuiFormControl-root": {
-        width: "25vw",
+        width: window.innerWidth <= 700 ? "65vw" : "25vw",
         margin: "1vh 0",
       },
 

@@ -58,29 +58,27 @@ const LostPasswordComponent = (props) => {
               dirty,
             }) => (
               <form className={classes.root}>
-                <p>
-                  {touched.email && errors.email ? (
-                    <TextField
-                      error
-                      helperText={errors.email}
-                      id="standard-basic"
-                      label="E-mail"
-                      name={"email"}
-                      onChange={handleChange}
-                      onBlur={handleBlur}
-                      defaultValue={values.email}
-                    />
-                  ) : (
-                    <TextField
-                      id="standard-basic"
-                      label="E-mail"
-                      name={"email"}
-                      onChange={handleChange}
-                      onBlur={handleBlur}
-                      defaultValue={values.email}
-                    />
-                  )}
-                </p>
+                {touched.email && errors.email ? (
+                  <TextField
+                    error
+                    helperText={errors.email}
+                    id="standard-basic"
+                    label="E-mail"
+                    name={"email"}
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    defaultValue={values.email}
+                  />
+                ) : (
+                  <TextField
+                    id="standard-basic"
+                    label="E-mail"
+                    name={"email"}
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    defaultValue={values.email}
+                  />
+                )}
 
                 <button
                   className={styles.restoreBtn}

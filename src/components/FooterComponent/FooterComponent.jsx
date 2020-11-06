@@ -24,18 +24,18 @@ const FooterComponent = (props) => {
             </div>
             <div className={styles.footer_nav}>
               <div className={styles.nav_col}>
-                <NavLink to={""}>КАК ЭТО РАБОТАЕТ</NavLink>
-                <NavLink to={""}>КОНТАКТЫ</NavLink>
-                <NavLink to={""}>ИНВЕСТОРАМ</NavLink>
+                <NavLink to={"/howitworks"}>КАК ЭТО РАБОТАЕТ</NavLink>
+                <NavLink to={"/contacts"}>КОНТАКТЫ</NavLink>
+                <NavLink to={"/investor"}>ИНВЕСТОРАМ</NavLink>
                 <NavLink to={"/glossary"}>ГЛОССАРИЙ</NavLink>
                 <NavLink to={""}>ПРАВИЛА СЕРВИСА</NavLink>
                 <NavLink to={""}>КАК ПОГАСИТЬ ДОЛГ</NavLink>
               </div>
               <div className={styles.nav_col}>
                 <NavLink to={""}>НАШИ ПАРТНЕРЫ</NavLink>
-                <NavLink to={""}>СТАТЬ ИНВЕСТОРОМ</NavLink>
-                <NavLink to={""}>ПОМОЩЬ</NavLink>
-                <NavLink to={""}>БЛОГ</NavLink>
+                <NavLink to={"/registration"}>СТАТЬ ИНВЕСТОРОМ</NavLink>
+                <NavLink to={"/help"}>ПОМОЩЬ</NavLink>
+                <NavLink to={"/blog"}>БЛОГ</NavLink>
                 <NavLink to={""}>ОТЗЫВЫ</NavLink>
                 <NavLink to={""}>ПОТРЕБИТЕЛЬСКИЕ КРЕДИТЫ</NavLink>
               </div>

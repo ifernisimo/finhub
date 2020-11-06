@@ -76,3 +76,41 @@
     font-family: UniNeueBold;
 }
 
+@media only screen and (max-width : 1150px) {
+
+
+    .blockHeadTitleDescription{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .blockHead_title{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .creditOnlineOnCard{
+        margin: 60px auto 0 auto;
+        text-align: center;
+    }
+
+    .blockHead_title h2{
+        font-size: 35px;
+    }
+
+}
+
+
+@media only screen and (max-width : 800px) {
+
+    .wall{
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width : 450px) {
+
+
+}

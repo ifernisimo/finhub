@@ -1,29 +1,27 @@
 .greenPromo{
-    background-color: #F5F5F5;
     position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 
 .outerBanner{
     justify-content: flex-end;
     display: flex;
-    position: absolute;
-    top: -368px;
     width: 90%;
     height: 671px;
     background: linear-gradient(259.51deg, #55C595 3.04%, #7DE495 100.2%);
     border-radius: 30px;
     padding: 120px;
-
+    margin: 120px 0;
     box-sizing: border-box;
 }
 
 .promoGirl {
     position: absolute;
-    left: -50px;
-    top: -32px;
+    left: 0;
+    top: 88px;
     width: auto;
 }
 
@@ -64,11 +62,13 @@
 /**/
 
 .advantages{
+    background-color: #F5F5F5;
     display: flex;
     width: 90%;
     margin: auto;
-    height: 728px;
     align-items: flex-end;
+    padding: 5vh;
+    box-sizing: border-box;
 }
 
 .advantageItem{
@@ -109,5 +109,124 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 100px;
+}
+
+/**/
+
+@media only screen and (max-width : 1555px) {
+
+    .outerBanner{
+        height: auto;
+        padding: 45px;
+    }
+
+    .promoGirl {
+        width: 500px;
+    }
+
+    .getMoneyBlock{
+        margin-right: 100px;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width : 1250px) {
+    .outerBanner{
+        padding: 30px;
+    }
+
+    .promoGirl {
+        width: 350px;
+    }
+
+    .getMoneyBlock{
+        margin-right: 100px;
+    }
+
+    .getMoneyBlock_title{
+        font-size: 30px;
+    }
+
+    .getMoneyBlock_text{
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width : 1120px) {
+    .outerBanner{
+        padding: 15px;
+        margin: 80px 0;
+    }
+
+    .promoGirl {
+        width: 250px;
+        top:50px;
+    }
+
+    .getMoneyBlock{
+        width: 60%;
+        margin-right: 100px;
+    }
+
+    .getMoneyBlock_title{
+        font-size: 30px;
+    }
+
+    .getMoneyBlock_text{
+        font-size: 15px;
+    }
+    .divider{
+        margin: 15px 0;
+    }
+
+
+    .items_row{
+        flex-wrap: wrap;
+    }
+
+    .item_img_title{
+        font-size: 18px;
+    }
+
+}
+
+
+@media only screen and (max-width : 980px) {
+
+    .promoGirl {
+        display: none;
+    }
+
+    .getMoneyBlock{
+        width: 100%;
+    }
+
+    .items_row{
+        margin-bottom: 50px;
+    }
+
+    .outerBanner{
+        margin: 50px 0;
+    }
+
+    .advantages{
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 740px) {
+
+    .items_row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media only screen and (max-width : 600px) {
+
 }

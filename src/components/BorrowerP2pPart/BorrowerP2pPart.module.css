@@ -76,3 +76,60 @@
 .playBtnHidden{
     display: none;
 }
+
+@media only screen and (max-width : 1100px) {
+
+
+    .title_row{
+        padding-top: 60px;
+    }
+
+    .slider_title_text{
+        font-size: 30px;
+    }
+
+}
+
+
+@media only screen and (max-width : 1400px) {
+
+    .blockTitle p {
+        margin-right: 5vw;
+    }
+
+}
+
+
+@media only screen and (max-width : 1250px) {
+
+    .blockTitle{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .blockTitle h2{
+        font-size: 30px;
+        margin-right: 5vw;
+    }
+
+}
+
+@media only screen and (max-width : 1100px) {
+    .p2p{
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .blockTitle{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width : 650px) {
+    .video, video{
+        width: 100%;
+    }
+
+
+}

@@ -12,7 +12,6 @@
     flex-direction: row;
     width: 90vw;
     justify-content: space-between;
-    margin-bottom: 500px;
 }
 
 .block{
@@ -79,4 +78,70 @@ color: #55C595;
 .list_item p{
     width: 90%;
     margin: 0;
+}
+
+/**/
+
+
+
+
+
+@media only screen and (max-width : 1200px) {
+
+
+    .blockTitleText{
+        font-size: 30px;
+    }
+
+
+    .container{
+        margin-top: 60px;
+    }
+
+}
+
+
+
+@media only screen and (max-width : 800px) {
+
+    .block{
+        padding: 20px;
+        border: 2px solid #E5E5E5;
+    }
+
+    .lightPreText{
+        font-size: 12px;
+    }
+
+    .blockTitleText{
+        margin: 20px 0;
+    }
+
+    .container{
+        margin-top: 60px;
+    }
+
+
+}
+
+@media only screen and (max-width : 500px) {
+    .lightPreText{
+        font-size: 10px;
+    }
+
+    .blockTitleText{
+        font-size: 24px;
+    }
+
+    .block{
+        font-size: 10px;
+    }
+
+    .list_item span{
+        font-size: 15px;
+    }
+
+    .container{
+        margin-top: 30px;
+    }
 }

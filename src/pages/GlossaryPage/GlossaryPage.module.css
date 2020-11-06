@@ -1,0 +1,19 @@
+.glossaryPage{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: 0 auto;
+    font-family: UniNeueRegular;
+}
+
+.words{
+    width: 60vw;
+    display: flex;
+    align-self: center;
+    font-size: 18px;
+
+}
+
+li{
+    margin: 3vh 0;
+}

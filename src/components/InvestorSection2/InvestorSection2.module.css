@@ -26,6 +26,7 @@
     font-family: UniNeueBold;
     font-size: 50px;
     color: #55C595;
+    align-self: center;
 
 }
 
@@ -36,4 +37,56 @@
     color: #FFFFFF;
     line-height: 2;
     letter-spacing: 1px;
+}
+
+
+@media only screen and (max-width : 1100px) {
+
+    .blockText h4{
+        padding-top: 60px;
+        margin: 20px 0;
+    }
+
+}
+
+@media only screen and (max-width : 550px) {
+
+    .blockText h4{
+        font-size: 24px;
+        padding: 0;
+    }
+
+    .blockText p {
+        line-height: 1.5;
+    }
+
+
+
+}
+
+@media only screen and (max-width : 850px) {
+
+    .blockText{
+        padding-top: 30px;
+}
+
+    .blockText h4{
+        font-size: 35px;
+    }
+
+    .section2{
+        padding-bottom: 30px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width : 1560px) {
+
+    .firstBlock{
+        display: none;
+    }
+
 }

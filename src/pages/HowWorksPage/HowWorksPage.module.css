@@ -113,3 +113,32 @@ article {
 .playBtnHidden{
     display: none;
 }
+
+
+@media only screen and (max-width : 500px) {
+    .route{
+        margin-top: 30px;
+    }
+
+
+    .howWorks_title h1{
+        font-size: 35px;
+    }
+
+    .video, .overlay{
+        width: 90vw;
+    }
+
+    video{
+        width: 90vw!important;
+    }
+
+    article{
+        width: 90vw;
+    }
+
+    .takeCredit {
+        width: 260px;
+        height: 60px;
+    }
+}

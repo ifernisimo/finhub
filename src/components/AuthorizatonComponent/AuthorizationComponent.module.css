@@ -86,3 +86,32 @@ form{
 text-decoration: none;
     color: #55C595;
 }
+
+
+@media only screen and (max-width : 1250px) {
+    .pageTitle h1{
+        font-size: 35px;
+    }
+
+    .authorization{
+        width: 50vw;
+    }
+
+    .phoneOrMailField, .passwordField{
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .pageTitle h1{
+        font-size: 24px;
+    }
+
+    .authorization{
+        width: 80vw;
+    }
+
+    .phoneOrMailField, .passwordField{
+        width: 60vw;
+    }
+}
