@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect, useState } from "react";
 import styles from "./BlogInsideSlider.module.css";
 import arrowLeft from "../../assets/images/slider_arrow_left.svg";
 import arrowRight from "../../assets/images/slider_arrow_right.svg";
@@ -6,11 +6,26 @@ import Slider from "react-slick";
 import demoPhoto from "../../assets/images/blog_demo_img.svg";
 
 const BlogInsideSlider = (props) => {
+  const useWindowSize = () => {
+    const [size, setSize] = useState([0, 0]);
+    useLayoutEffect(() => {
+      function updateSize() {
+        setSize([window.innerWidth, window.innerHeight]);
+      }
+      window.addEventListener("resize", updateSize);
+      updateSize();
+      return () => window.removeEventListener("resize", updateSize);
+    }, []);
+    return size;
+  };
+
+  const [width, height] = useWindowSize();
+
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: width < 1000 ? 2 : 4,
+    slidesToScroll: width < 1000 ? 2 : 4,
     arrows: false,
   };
 

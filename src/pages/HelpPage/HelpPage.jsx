@@ -6,12 +6,8 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import Typography from "@material-ui/core/Typography";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import { makeStyles } from "@material-ui/core/styles";
-import { Formik } from "formik";
-import TextField from "@material-ui/core/TextField";
-import * as yup from "yup";
 import HeaderComponentContainer from "../../components/HeaderComponent/HeaderComponentContainer";
 import divider from "../../assets/images/dots_divider.svg";
-import { NavLink } from "react-router-dom";
 import ContactsForm from "../../components/ContactsForm/ContactsForm";
 import FooterComponent from "../../components/FooterComponent/FooterComponent";
 

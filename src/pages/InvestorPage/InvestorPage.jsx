@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./InvestorPage.module.css";
 import HeaderComponentContainer from "../../components/HeaderComponent/HeaderComponentContainer";
 import InvestorSection1 from "../../components/InvestorSection1/InvestorSection1";
 import InvestorSection2 from "../../components/InvestorSection2/InvestorSection2";

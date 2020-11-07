@@ -17,3 +17,10 @@
 li{
     margin: 3vh 0;
 }
+
+
+@media only screen and (max-width : 550px) {
+    .words{
+        width: 90vw;
+    }
+}

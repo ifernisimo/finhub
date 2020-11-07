@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./HeaderComponent.module.css";
 import { NavLink } from "react-router-dom";
-import CalculatorBorrowComponent from "../CalculatorBorrowComponent/CalculatorBorrowComponent";
 /* IMAGES */
 import logotype from "../../assets/images/logo.svg";
 import call from "../../assets/images/Call_icon.svg";

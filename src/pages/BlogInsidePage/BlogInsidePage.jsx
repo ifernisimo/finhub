@@ -4,12 +4,7 @@ import FooterComponent from "../../components/FooterComponent/FooterComponent";
 import HeaderComponentContainer from "../../components/HeaderComponent/HeaderComponentContainer";
 import arrow from "../../assets/images/blogInside_arrow.svg";
 import demoImg from "../../assets/images/blogInside_img.jpg";
-import demoImgMini from "../../assets/images/blog_demo_img.svg";
 import { NavLink } from "react-router-dom";
-import arrowLeft from "../../assets/images/slider_arrow_left.svg";
-import arrowRight from "../../assets/images/slider_arrow_right.svg";
-import Slider from "react-slick";
-import demoPhoto from "../../assets/images/demo_photo.svg";
 import BlogInsideSlider from "../../components/BlogInsideSlider/BlogInsideSlider";
 
 const BlogInsidePage = () => {

@@ -42,6 +42,7 @@ const ContactsPage = (props) => {
               allowFullScreen=""
               aria-hidden="false"
               tabIndex="0"
+              title={"map"}
             ></iframe>
           </div>
           <div className={styles.rightForm}>
