@@ -2,54 +2,32 @@ import React, { useEffect, useState } from "react";
 import styles from "./InvestorMoneyCounter.module.css";
 
 const InvestorMoneyCounter = (props) => {
-  const [home, setHome] = useState(0);
-  const [bank, setBank] = useState(0);
-  const [project, setProject] = useState(0);
-  let homeId, bankId, projectId;
+  const [home, setHome] = useState(0),
+    [bank, setBank] = useState(0),
+    [project, setProject] = useState(0);
+  let timerId;
   useEffect(() => {
-    counterHome(1000000);
-    counterBank(1000000);
-    counterProject(1000000);
-
+    initCounters();
     return () => {
-      clearTimeout(homeId);
-      clearTimeout(bankId);
-      clearTimeout(projectId);
-      console.log(project, bank, home);
+      destroyCounters();
     };
-  });
+  }, [home, bank, project]);
+
+  const initCounters = () => {
+    counterHome(1000000);
+  };
+
+  const destroyCounters = () => {
+    clearTimeout(timerId);
+  };
 
   const counterHome = (limit) => {
-    home < limit &&
-      (homeId = setTimeout(() => {
-        setHome(home + 100);
-      }, 50));
+    timerId = setTimeout(() => {
+      home < limit && setHome(home + 100);
+      bank < limit && setBank(bank + 1000);
+      project < limit && setProject(project + 4000);
+    }, 50);
   };
-
-  const counterBank = (limit) => {
-    bank < limit &&
-      (bankId = setTimeout(() => {
-        setBank(bank + 1000);
-      }, 50));
-  };
-
-  const counterProject = (limit) => {
-    project < limit &&
-      (projectId = setTimeout(() => {
-        setProject(project + 1000);
-      }, 50));
-  };
-
-  // project > limit &&
-  //   (projectId = setTimeout(() => {
-  //     setProject(project + 3000);
-  //   }, 50));
-  //
-
-  // };
-  // counterHome(1000000);
-  // counterBank(1000000);
-  // counterProject(1000000);
 
   return (
     <>
@@ -65,7 +43,7 @@ const InvestorMoneyCounter = (props) => {
           </div>
           <div className={styles.counterThere}>
             <span className={styles.summ}>{project}&nbsp;грн</span>
-            <span className={styles.iterator}>&nbsp;+3000</span>
+            <span className={styles.iterator}>&nbsp;+4000</span>
           </div>
         </div>
 
