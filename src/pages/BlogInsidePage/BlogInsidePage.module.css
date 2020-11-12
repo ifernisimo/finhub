@@ -83,3 +83,14 @@ h4{
 .postText{
     font-size: 18px;
 }
+
+@media only screen and (max-width : 750px) {
+    .route{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 35px;
+        text-align: center;
+    }
+}

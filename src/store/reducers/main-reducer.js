@@ -1,7 +1,7 @@
 const SET_LANGUAGE = "SET_LANGUAGE";
 
 let initialState = {
-  language: "RU",
+  language: "RUSSIAN",
   registerAs: "borrower",
 };
 

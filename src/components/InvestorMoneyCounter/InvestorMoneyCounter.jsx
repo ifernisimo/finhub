@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import styles from "./InvestorMoneyCounter.module.css";
 
 const InvestorMoneyCounter = (props) => {
+  const [home, setHome] = useState(0);
+  const [bank, setBank] = useState(0);
+  const [project, setProject] = useState(0);
+  let homeId, bankId, projectId;
   useEffect(() => {
     counterHome(1000000);
     counterBank(1000000);
@@ -11,37 +15,38 @@ const InvestorMoneyCounter = (props) => {
       clearTimeout(homeId);
       clearTimeout(bankId);
       clearTimeout(projectId);
+      console.log(project, bank, home);
     };
   });
 
-  const [home, setHome] = useState(10000);
-  const [bank, setBank] = useState(10000);
-  const [project, setProject] = useState(10000);
-  let homeId, bankId, projectId;
-
   const counterHome = (limit) => {
-    home < limit
-      ? (homeId = setTimeout(() => {
-          setHome(home + 100);
-        }, 50))
-      : clearTimeout(counterHome);
+    home < limit &&
+      (homeId = setTimeout(() => {
+        setHome(home + 100);
+      }, 50));
   };
 
   const counterBank = (limit) => {
-    bank < limit
-      ? (bankId = setTimeout(() => {
-          setBank(bank + 1000);
-        }, 50))
-      : clearTimeout(counterBank);
+    bank < limit &&
+      (bankId = setTimeout(() => {
+        setBank(bank + 1000);
+      }, 50));
   };
 
   const counterProject = (limit) => {
-    project < limit
-      ? (projectId = setTimeout(() => {
-          setProject(project + 3000);
-        }, 50))
-      : clearTimeout(counterProject);
+    project < limit &&
+      (projectId = setTimeout(() => {
+        setProject(project + 1000);
+      }, 50));
   };
+
+  // project > limit &&
+  //   (projectId = setTimeout(() => {
+  //     setProject(project + 3000);
+  //   }, 50));
+  //
+
+  // };
   // counterHome(1000000);
   // counterBank(1000000);
   // counterProject(1000000);

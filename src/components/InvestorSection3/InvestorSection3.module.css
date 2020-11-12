@@ -59,13 +59,11 @@
     padding: 20px;
 }
 
-.brick_img{
+.brick img{
     display: flex;
     width: 5vw;
     height: 5vw;
-    border: 1px solid #55C595;
     box-sizing: border-box;
-    border-radius: 5vw;
     overflow: hidden;
 }
 

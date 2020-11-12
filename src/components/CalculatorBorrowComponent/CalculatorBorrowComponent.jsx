@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./CalculatorBorrowComponent.module.css";
 
 import triangle from "../../assets/images/borrower_calcBlock_triangle.svg";
+import CalculatorBorrower from "../CalculatorBorrower/CalculatorBorrower";
 
 const CalculatorBorrowComponent = (props) => {
   return (
@@ -13,7 +14,9 @@ const CalculatorBorrowComponent = (props) => {
             Выгодные условия кредитования
           </span>
         </div>
-        <div className={styles.calculator}>Калькулятор будет тут</div>
+        <div className={styles.calculator}>
+          <CalculatorBorrower />
+        </div>
       </div>
     </>
   );

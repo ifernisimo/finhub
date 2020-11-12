@@ -32,12 +32,12 @@ const FooterComponent = (props) => {
                 <NavLink to={""}>КАК ПОГАСИТЬ ДОЛГ</NavLink>
               </div>
               <div className={styles.nav_col}>
-                <NavLink to={""}>НАШИ ПАРТНЕРЫ</NavLink>
+                <a href={"#partners"}>НАШИ ПАРТНЕРЫ</a>
                 <NavLink to={"/registration"}>СТАТЬ ИНВЕСТОРОМ</NavLink>
                 <NavLink to={"/help"}>ПОМОЩЬ</NavLink>
                 <NavLink to={"/blog"}>БЛОГ</NavLink>
-                <NavLink to={""}>ОТЗЫВЫ</NavLink>
-                <NavLink to={""}>ПОТРЕБИТЕЛЬСКИЕ КРЕДИТЫ</NavLink>
+                <a href={"#feedback"}>ОТЗЫВЫ</a>
+                <a href={"#credits"}>ПОТРЕБИТЕЛЬСКИЕ КРЕДИТЫ</a>
               </div>
             </div>
             <div className={styles.etcInfo}>

@@ -1,5 +1,13 @@
 import React from "react";
 import styles from "./InvestorSection3.module.css";
+import adv1 from "../../assets/images/advantages/advantages_01.svg";
+import adv2 from "../../assets/images/advantages/advantages_02.svg";
+import adv3 from "../../assets/images/advantages/advantages_03.svg";
+import adv4 from "../../assets/images/advantages/advantages_04.svg";
+import adv5 from "../../assets/images/advantages/advantages_05.svg";
+import adv6 from "../../assets/images/advantages/advantages_06.svg";
+import adv7 from "../../assets/images/advantages/advantages_07.svg";
+import adv8 from "../../assets/images/advantages/advantages_08.svg";
 
 const InvestorSection3 = (props) => {
   return (
@@ -12,64 +20,46 @@ const InvestorSection3 = (props) => {
             </div>
             <div className={styles.bricks}>
               <div className={styles.brick}>
-                <div className={styles.brick_img}>
-                  <img src={""} alt="" />
-                </div>
+                <img src={adv1} alt="" />
+
                 <span className={styles.brick_title}>Высокая доходность</span>
-                <span className={styles.etc}>подробнее</span>
               </div>
               <div className={styles.brick}>
-                <div className={styles.brick_img}>
-                  <img src={""} alt="" />
-                </div>
+                <img src={adv2} alt="" />
+
                 <span className={styles.brick_title}>
                   Диверсификация рисков
                 </span>
-                <span className={styles.etc}>подробнее</span>
               </div>
               <div className={styles.brick}>
-                <div className={styles.brick_img}>
-                  <img src={""} alt="" />
-                </div>
+                <img src={adv3} alt="" />
+
                 <span className={styles.brick_title}>Низкий порог входа</span>
-                <span className={styles.etc}>подробнее</span>
               </div>
               <div className={styles.brick}>
-                <div className={styles.brick_img}>
-                  <img src={""} alt="" />
-                </div>
+                <img src={adv4} alt="" />
                 <span className={styles.brick_title}>
                   Гарантии для инвесторов
                 </span>
-                <span className={styles.etc}>подробнее</span>
               </div>
               <div className={styles.brick}>
-                <div className={styles.brick_img}>
-                  <img src={""} alt="" />
-                </div>
+                <img src={adv5} alt="" />
                 <span className={styles.brick_title}>Свобода и комфорт</span>
-                <span className={styles.etc}>подробнее</span>
               </div>
               <div className={styles.brick}>
-                <div className={styles.brick_img}>
-                  <img src={""} alt="" />
-                </div>
+                <img src={adv6} alt="" />
+
                 <span className={styles.brick_title}>Взаимная выгода</span>
-                <span className={styles.etc}>подробнее</span>
               </div>
               <div className={styles.brick}>
-                <div className={styles.brick_img}>
-                  <img src={""} alt="" />
-                </div>
+                <img src={adv7} alt="" />
+
                 <span className={styles.brick_title}>Полное покрытие</span>
-                <span className={styles.etc}>подробнее</span>
               </div>
               <div className={styles.brick}>
-                <div className={styles.brick_img}>
-                  <img src={""} alt="" />
-                </div>
+                <img src={adv8} alt="" />
+
                 <span className={styles.brick_title}>Как мы зарабатываем?</span>
-                <span className={styles.etc}>подробнее</span>
               </div>
             </div>
           </div>

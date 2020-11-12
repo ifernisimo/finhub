@@ -1,4 +1,4 @@
-import React from "react";
+import React /*{ useLayoutEffect, useState }*/ from "react";
 import * as yup from "yup";
 import { Formik } from "formik";
 import styles from "./RegistrationComponent.module.css";
@@ -9,9 +9,11 @@ import HeaderComponentContainer from "../HeaderComponent/HeaderComponentContaine
 import triangle from "../../assets/images/registration_triangle.png";
 
 const RegistrationComponent = (props) => {
+  const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
+
   const validationsSchema = yup.object().shape({
     name: yup.string().required("*Обязательно"),
-    phone: yup.string().required("*Обязательное поле"),
+    phone: yup.string().matches(phoneRegExp, "Номер указан неверно"),
     email: yup.string().email("Введите верный email").required("*Обязательно"),
     confirmEmail: yup
       .string()
@@ -70,6 +72,8 @@ const RegistrationComponent = (props) => {
                       <div className={styles.name_field}>
                         {touched.name && errors.name ? (
                           <TextField
+                            error
+                            helperText={errors.name}
                             id="standard-basic-reg-name"
                             label="Имя"
                             name={"name"}
@@ -79,8 +83,6 @@ const RegistrationComponent = (props) => {
                           />
                         ) : (
                           <TextField
-                            error
-                            helperText={errors.name}
                             id="standard-basic-reg-name"
                             label="Имя"
                             name={"phone"}
@@ -146,6 +148,8 @@ const RegistrationComponent = (props) => {
                       <div className={styles.phone_field}>
                         {touched.phone && errors.phone ? (
                           <TextField
+                            error
+                            helperText={errors.phone}
                             id="standard-basic-reg-phone"
                             label="+38(0__)___-__-__"
                             name={"phone"}
@@ -155,8 +159,6 @@ const RegistrationComponent = (props) => {
                           />
                         ) : (
                           <TextField
-                            error
-                            helperText={errors.phone}
                             id="standard-basic-reg-phone"
                             label="+38(0__)___-__-__"
                             name={"phone"}

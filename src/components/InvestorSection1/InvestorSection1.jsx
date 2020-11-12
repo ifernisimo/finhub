@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./InvestorSection1.module.css";
-import triangle from "../../assets/images/investor_triangle.svg";
+import isometric from "../../assets/images/isometric.png";
 import { NavLink } from "react-router-dom";
 
 const InvestorSection1 = (props) => {
@@ -17,7 +17,7 @@ const InvestorSection1 = (props) => {
             </button>
           </div>
           <div className={styles.imgSide}>
-            <img src={triangle} alt="background" />
+            <img src={isometric} alt="background" />
           </div>
         </div>
       </div>

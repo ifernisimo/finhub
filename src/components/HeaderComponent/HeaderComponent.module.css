@@ -95,8 +95,9 @@
     display: flex;
     justify-content: space-between;
     font-family: UniNeueRegular;
-    color: #EEEEEE;
+    color: #b6b6b6;
     width: 60px;
+    cursor: pointer;
 
 }
 
@@ -251,6 +252,10 @@ justify-content: center;
 
     .container{
         height: 100px;
+    }
+
+    .language_switch{
+        width: 40px;
     }
 
 }

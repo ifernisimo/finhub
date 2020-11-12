@@ -19,7 +19,7 @@ const BlogInsideSlider = (props) => {
     return size;
   };
 
-  const [width, height] = useWindowSize();
+  const [width /* height*/] = useWindowSize();
 
   const settings = {
     infinite: true,

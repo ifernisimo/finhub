@@ -26,7 +26,9 @@ const BorrowerPageComponent = (props) => {
         <BorrowerEasyPart />
         <HowToComponent />
         <BorrowerCreditsOnlineOnCard />
+
         <FeedBackComponent />
+
         <BorrowerP2pPart />
         <MiniBlogComponent />
         <BorrowerSuccesNotInMoneyPart />
