@@ -1,0 +1,20 @@
+.date, .text {
+	font-family: UniNeueRegular;
+	display: block;
+}
+
+.date {
+	font-weight: bold;
+	font-size: 24px;
+	color: #215273;
+	margin-top: 11px;
+}
+
+.text {
+	margin-top: 11px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 15px;
+	color: #ccc;
+}

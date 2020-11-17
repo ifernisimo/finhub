@@ -111,19 +111,29 @@
 }
 
 .step_img{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     width: 100px;
     height: 100px;
     border-radius: 5vw;
-    border: 1px solid #55C595;
     box-sizing: border-box;
     margin: 20px 30px 20px 0;
 }
 
+
+.step_img img{
+    width: 80%;
+}
+
 .marker{
+    position: absolute;
     display: flex;
+    top: 8px;
+    left: 0;
     border: 1px solid;
     height: 1.5vw;
     align-items: center;

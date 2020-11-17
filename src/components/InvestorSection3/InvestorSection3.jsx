@@ -8,6 +8,9 @@ import adv5 from "../../assets/images/advantages/advantages_05.svg";
 import adv6 from "../../assets/images/advantages/advantages_06.svg";
 import adv7 from "../../assets/images/advantages/advantages_07.svg";
 import adv8 from "../../assets/images/advantages/advantages_08.svg";
+import become1 from "../../assets/images/howtobecome/become.svg";
+import become2 from "../../assets/images/howtobecome/become_1.svg";
+import become3 from "../../assets/images/howtobecome/become_2.svg";
 
 const InvestorSection3 = (props) => {
   return (
@@ -75,7 +78,7 @@ const InvestorSection3 = (props) => {
                   <div className={styles.marker}>
                     <span>01</span>
                   </div>
-                  <img src="" alt="" />
+                  <img src={become1} alt="" />
                 </div>
                 <span>Возьмите карточку</span>
               </div>
@@ -84,7 +87,7 @@ const InvestorSection3 = (props) => {
                   <div className={styles.marker}>
                     <span>02</span>
                   </div>
-                  <img src="" alt="" />
+                  <img src={become2} alt="" />
                 </div>
                 <span>Включите компьютер</span>
               </div>
@@ -93,7 +96,7 @@ const InvestorSection3 = (props) => {
                   <div className={styles.marker}>
                     <span>03</span>
                   </div>
-                  <img src="" alt="" />
+                  <img src={become3} alt="" />
                 </div>
                 <span>Зайдите на finhub.ua</span>
               </div>

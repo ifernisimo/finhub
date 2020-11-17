@@ -1,0 +1,12 @@
+.credit-form {
+	max-width: 378px;
+	margin: 60px;
+	font-family: UniNeueRegular;
+}
+
+.credit-computed {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 72px;
+	font-family: UniNeueRegular;
+}
