@@ -22,11 +22,31 @@ import RegistrationComponent from "./components/RegistrationComponent/Registrati
 import AuthorizationComponent from "./components/AuthorizatonComponent/AuthorizationComponent";
 import BlogInsidePage from "./pages/BlogInsidePage/BlogInsidePage";
 import GlossaryPage from "./pages/GlossaryPage/GlossaryPage";
+import InvestmentPage from "./pages/InvestmentPage/InvestmentPage";
+import InvestBoardAccountSettings from "./components/InvestBoardAccountSettings/InvestBoardAccountSettings";
+import InvestBoardCardData from "./components/InvestBoardCardData/InvestBoardCardData";
+import BorrowerCabinetPage from "./pages/BorrowerCabinetPage/BorrowerCabinetPage";
 
 ReactDOM.render(
   <BrowserRouter>
     <Provider store={store}>
       <Switch>
+        <Route
+          exect
+          path="/clientpanel"
+          render={() => <BorrowerCabinetPage />}
+        />
+        <Route
+          exect
+          path="/investboardcarddata"
+          render={() => <InvestBoardCardData />}
+        />
+        <Route
+          exect
+          path="/investboardsettings"
+          render={() => <InvestBoardAccountSettings />}
+        />
+        <Route exect path="/investboard" render={() => <InvestmentPage />} />
         <Route exect path="/post" render={() => <BlogInsidePage />} />
         <Route
           exect

@@ -1,6 +1,8 @@
 import React from 'react';
 import './nouislider.style.css';
 import style from './style.module.css';
+import dayjs from 'dayjs';
+import 'dayjs/locale/ru';
 
 import Nouislider from 'nouislider-react';
 
@@ -71,8 +73,32 @@ class Slider extends React.Component {
 		return (
 			<div className={ style['slider-wrap'] }>
 				<div className={ style.info }>
-					<span className={ style.num }>{ this.state.num }</span>
-					<span className={ style.text }>{ text }</span>
+					<span className={ style.num }>
+						{
+							type === 'term'
+								?
+									this.state.num > 30 ?
+										dayjs().locale( 'ru' ).add( this.state.num, 'day' )
+										.diff( dayjs(), 'month' )
+										:
+										this.state.num
+								:
+								this.state.num
+							
+						}
+					</span>
+					<span className={ style.text }>
+						{
+							type === 'term'
+								?
+									this.state.num > 30 ?
+										'срок, месяцeв'
+										:
+										text
+								:
+								text
+						}
+					</span>
 				</div>
 
 				<div>

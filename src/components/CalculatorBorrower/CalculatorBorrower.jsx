@@ -93,6 +93,11 @@ class CalculatorBorrower extends React.Component {
     this.changeStartAmount(c);
   }
 
+  componentDidUpdate() {
+    console.log(this.state.amount);
+    console.log(this.state.term);
+  }
+
   /**
    * Синхронизация между слайдерами;
    * Каждый слайдер вызывает эту функцию после каждого обновления.
@@ -101,7 +106,7 @@ class CalculatorBorrower extends React.Component {
    */
   sincSlides(type, val) {
     const { settings } = this.props;
-    const { term, amount } = this.state;
+    //const { term, amount } = this.state;
 
     if (type === "amount") {
       const lastAmountPlan = currentPlanBy("amount", settings, val);

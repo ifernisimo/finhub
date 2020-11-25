@@ -54,7 +54,7 @@ const LostPasswordComponent = (props) => {
               handleChange,
               handleBlur,
               isValid,
-              handleSubmit,
+              handleSubmit, // TODO <-- ДЛЯ ОТПРАВКИ ДАННЫХ НУЖНО НАПИСАТЬ api файл и в Reducer прописать thunk и прокинуть его в кастомный handle
               dirty,
             }) => (
               <form className={classes.root}>

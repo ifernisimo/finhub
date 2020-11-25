@@ -5,7 +5,7 @@ import style from "./style.module.css";
 const ButtonGetMoney = () => {
   return (
     <div className={style.container}>
-      <a className={style.link} href="#">
+      <a className={style.link} href={"/registration"}>
         <span className={style.text}>получить деньги</span>
       </a>
     </div>

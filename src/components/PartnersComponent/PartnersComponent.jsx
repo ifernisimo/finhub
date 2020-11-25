@@ -4,7 +4,13 @@ import ScrollableAnchor from "react-scrollable-anchor";
 /**/
 import styles from "./PartnersComponent.module.css";
 import demoImg from "../../assets/images/partners_demo.svg";
-import demoCircle from "../../assets/images/demo_photo.svg";
+/**/
+import partner1 from "../../assets/images/partners/partner-1.svg";
+import partner2 from "../../assets/images/partners/partner-2.svg";
+import partner3 from "../../assets/images/partners/partner-3.svg";
+import partner4 from "../../assets/images/partners/partner-4.svg";
+import partner5 from "../../assets/images/partners/partner-5.svg";
+import partner6 from "../../assets/images/partners/partner-6.svg";
 const PartnersComponent = (props) => {
   return (
     <>
@@ -35,11 +41,7 @@ const PartnersComponent = (props) => {
                 <div className={styles.adv_row}>
                   <div className={styles.advantage_item}>
                     <div className={styles.circleIcon}>
-                      <img
-                        src={demoCircle}
-                        alt=""
-                        className={styles.item_img}
-                      />
+                      <img src={partner1} alt="" className={styles.item_img} />
                     </div>
 
                     <p className={styles.item_text}>
@@ -48,11 +50,7 @@ const PartnersComponent = (props) => {
                   </div>
                   <div className={styles.advantage_item}>
                     <div className={styles.circleIcon}>
-                      <img
-                        src={demoCircle}
-                        alt=""
-                        className={styles.item_img}
-                      />
+                      <img src={partner2} alt="" className={styles.item_img} />
                     </div>
                     <p className={styles.item_text}>
                       Более низкий процент по кредиту — всего 0,37% в день
@@ -62,11 +60,7 @@ const PartnersComponent = (props) => {
                 <div className={styles.adv_row}>
                   <div className={styles.advantage_item}>
                     <div className={styles.circleIcon}>
-                      <img
-                        src={demoCircle}
-                        alt=""
-                        className={styles.item_img}
-                      />
+                      <img src={partner3} alt="" className={styles.item_img} />
                     </div>
                     <p className={styles.item_text}>
                       Никаких отделений и очередей, все онлайн
@@ -74,11 +68,7 @@ const PartnersComponent = (props) => {
                   </div>
                   <div className={styles.advantage_item}>
                     <div className={styles.circleIcon}>
-                      <img
-                        src={demoCircle}
-                        alt=""
-                        className={styles.item_img}
-                      />
+                      <img src={partner4} alt="" className={styles.item_img} />
                     </div>
                     <p className={styles.item_text}>
                       Отсутствие справки о доходах
@@ -89,11 +79,7 @@ const PartnersComponent = (props) => {
                 <div className={styles.adv_row}>
                   <div className={styles.advantage_item}>
                     <div className={styles.circleIcon}>
-                      <img
-                        src={demoCircle}
-                        alt=""
-                        className={styles.item_img}
-                      />
+                      <img src={partner5} alt="" className={styles.item_img} />
                     </div>
                     <p className={styles.item_text}>
                       Никаких отделений и очередей, все онлайн
@@ -101,11 +87,7 @@ const PartnersComponent = (props) => {
                   </div>
                   <div className={styles.advantage_item}>
                     <div className={styles.circleIcon}>
-                      <img
-                        src={demoCircle}
-                        alt=""
-                        className={styles.item_img}
-                      />
+                      <img src={partner6} alt="" className={styles.item_img} />
                     </div>
                     <p className={styles.item_text}>
                       Отсутствие справки о доходах

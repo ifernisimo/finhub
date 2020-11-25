@@ -72,12 +72,14 @@
 }
 
 .circleIcon{
-    border: 1px solid #55C595;
-    border-radius: 100%;
-    width: 60px;
-    height: 60px;
+
     margin-right: 1vw;
     box-sizing: border-box;
+}
+
+
+.circleIcon img{
+    height: 5vw;
 }
 
 .item_text{

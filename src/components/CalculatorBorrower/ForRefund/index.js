@@ -20,10 +20,15 @@ const ForRefund = ({ amount, rate, fee, serviceFee, term }) => {
     fee
   );
 
+  // console.log(amount,rate, fee, serviceFee, term )
+
   return (
     <div>
       <span className={style.text}>к возврату</span>
-      <span className={style.amount}>{paymentToPay} грн.</span>
+      <span className={style.amount}>
+        {paymentToPay}
+        {term <= 30 ? "грн." : "грн./месяц"}
+      </span>
     </div>
   );
 };

@@ -97,6 +97,10 @@
     font-size: 24px;
 }
 
+.item_img_title img{
+    height:  5vw;
+}
+
 .item p{
     font-size: 18px;
     font-family: UniNeueRegular;

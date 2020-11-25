@@ -76,6 +76,18 @@ input{
 
 
 @media only screen and (max-width : 980px) {
+    .borrowerCalculator{
+        flex-direction: column;
+    }
+
+    .leftBlock{
+        width: 100%;
+    }
+
+    .calculator{
+        width: 100% ;
+    }
+
     .leftBlockText{
 
         left: 70px;
@@ -83,6 +95,10 @@ input{
 }
 
 @media only screen and (max-width : 740px) {
+
+    .borrowerCalculator{
+        flex-direction: column;
+    }
 
     .leftBlock img{
         height: 20vh;

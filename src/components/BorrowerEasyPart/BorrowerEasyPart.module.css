@@ -37,21 +37,29 @@
     flex-direction: row;
     margin-bottom: 120px;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .item{
     width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .circle{
     display: flex;
-    height: 60px;
-    width: 60px;
     flex-direction: column;
-    border: 1px solid #55C595;
+    /*border: 1px solid #55C595;*/
     box-sizing: border-box;
     border-radius: 60px;
     position: relative;
+
+}
+
+.circle img{
+    display: flex;
+    width: 7vw;
 }
 
 .marker{
@@ -59,6 +67,7 @@
     display: flex;
     width: 21px;
     height: 21px;
+    left: -10px;
     background: linear-gradient(101.57deg, #55C595 2.19%, #7DE495 77.96%);
     box-shadow: 0px 4px 4px rgba(9, 199, 117, 0.22);
     border-radius: 21px;

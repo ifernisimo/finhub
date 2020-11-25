@@ -115,7 +115,7 @@
     font-size: 30px;
 
 }
-input {display: none;}
+header input {display: none!important;}
 label {cursor: pointer;}
 
 .nav {user-select: none;}
@@ -305,6 +305,7 @@ justify-content: center;
     .header{
         flex-direction: column;
         height: auto;
+        margin: 0;
     }
     .headerNavigation{
         display: none;

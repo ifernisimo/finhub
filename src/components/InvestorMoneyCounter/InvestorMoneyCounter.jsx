@@ -11,7 +11,7 @@ const InvestorMoneyCounter = (props) => {
     return () => {
       destroyCounters();
     };
-  }, [home, bank, project]);
+  });
 
   const initCounters = () => {
     counterHome(1000000);

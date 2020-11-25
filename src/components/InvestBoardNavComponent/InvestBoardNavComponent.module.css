@@ -1,0 +1,25 @@
+.innerNav{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+    margin: 2vh auto;
+
+}
+
+.innerNav a{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #55c595;
+    border-radius: 10px;
+}
+
+.innerNav svg{
+    width: 50px;
+    height: 50px;
+    color: #FFFFFF;
+}

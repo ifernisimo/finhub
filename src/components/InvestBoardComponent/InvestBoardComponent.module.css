@@ -1,0 +1,69 @@
+.errorMessage{
+    width: 100%;
+    background: #FACDD4;
+    border-radius: 10px;
+    height: 5vh;
+    color: #D62D30;
+    margin: 1vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: UniNeueBold;
+    font-size: 18px;
+}
+.earnings{
+    font-family: UniNeueBold;
+    font-weight: bold;
+    color: #55C595;
+}
+
+.riskMark{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.riskText{
+    font-weight: bold;
+    font-family: UniNeueBlack;
+}
+
+
+.A {
+    background: #8AC44B;
+}
+.B{
+background: #15499F;
+   }
+.C{
+    background: #70B2E2;
+}
+.D{
+    background: #F8981D;
+}
+.E{
+    background: #E65425;;
+}
+.F{
+    background: #B72025;;
+}
+
+.maxIncomeCell, .earningsCol, .riskCol, .orderSummCol, .leftToInvestCol{
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteButton{
+    display: flex;
+    background: none;
+    border: none;
+    outline: none;
+    color: #CCCCCC;
+    cursor: pointer;
+
+}

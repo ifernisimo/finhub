@@ -7,6 +7,10 @@ import { NavLink } from "react-router-dom";
 import FooterComponent from "../FooterComponent/FooterComponent";
 import HeaderComponentContainer from "../HeaderComponent/HeaderComponentContainer";
 import triangle from "../../assets/images/registration_triangle.png";
+/**/
+import passIcon from "../../assets/images/easy_section/easy-2.svg";
+import phoneIcon from "../../assets/images/easy_section/easy-1.svg";
+import wwwIcon from "../../assets/images/howtobecome/become_2.svg";
 
 const RegistrationComponent = (props) => {
   const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
@@ -63,7 +67,7 @@ const RegistrationComponent = (props) => {
                 handleChange,
                 handleBlur,
                 isValid,
-                handleSubmit,
+                handleSubmit, // TODO <-- ДЛЯ ОТПРАВКИ ДАННЫХ НУЖНО НАПИСАТЬ api файл и в Reducer прописать thunk и прокинуть его в кастомный handle
                 dirty,
               }) => (
                 <form className={"from"}>
@@ -254,7 +258,7 @@ const RegistrationComponent = (props) => {
                     <div className={styles.marker}>
                       <span>01</span>
                     </div>
-                    <img src="" alt="" />
+                    <img src={passIcon} alt="" />
                   </div>
                   <span>Паспорт и идентификационный код</span>
                 </div>
@@ -263,7 +267,7 @@ const RegistrationComponent = (props) => {
                     <div className={styles.marker}>
                       <span>02</span>
                     </div>
-                    <img src="" alt="" />
+                    <img src={phoneIcon} alt="" />
                   </div>
                   <span>Мобильный телефон</span>
                 </div>
@@ -272,7 +276,7 @@ const RegistrationComponent = (props) => {
                     <div className={styles.marker}>
                       <span>03</span>
                     </div>
-                    <img src="" alt="" />
+                    <img src={wwwIcon} alt="" />
                   </div>
                   <span>Зайдите на finhub.ua</span>
                 </div>

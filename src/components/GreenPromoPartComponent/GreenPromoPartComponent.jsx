@@ -2,7 +2,12 @@ import React from "react";
 import styles from "./GreenPromoPartComponent.module.css";
 import promoGirl from "../../assets/images/green_promo_girl2.png";
 import dotsDivider from "../../assets/images/dots_divider_white.svg";
-import demoIcon from "../../assets/images/demo_ellips.svg";
+/**/
+import credit1 from "../../assets/images/credit/credit-1.svg";
+import credit2 from "../../assets/images/credit/credit-2.svg";
+import credit3 from "../../assets/images/credit/credit-3.svg";
+import credit4 from "../../assets/images/credit/credit-4.svg";
+import credit5 from "../../assets/images/credit/credit-5.svg";
 
 const GreenPromoPartComponent = (props) => {
   return (
@@ -36,7 +41,7 @@ const GreenPromoPartComponent = (props) => {
             <div className={styles.advantageItem}>
               <div className={styles.item}>
                 <div className={styles.item_img_title}>
-                  <img src={demoIcon} alt="" />
+                  <img src={credit1} alt="" />
                   <span>Быстро</span>
                 </div>
                 <p>
@@ -48,7 +53,7 @@ const GreenPromoPartComponent = (props) => {
             <div className={styles.advantageItem}>
               <div className={styles.item}>
                 <div className={styles.item_img_title}>
-                  <img src={demoIcon} alt="" />
+                  <img src={credit2} alt="" />
                   <span>Легко</span>
                 </div>
                 <p>
@@ -60,7 +65,7 @@ const GreenPromoPartComponent = (props) => {
             <div className={styles.advantageItem}>
               <div className={styles.item}>
                 <div className={styles.item_img_title}>
-                  <img src={demoIcon} alt="" />
+                  <img src={credit3} alt="" />
                   <span>Честно</span>
                 </div>
                 <p>
@@ -72,7 +77,7 @@ const GreenPromoPartComponent = (props) => {
             <div className={styles.advantageItem}>
               <div className={styles.item}>
                 <div className={styles.item_img_title}>
-                  <img src={demoIcon} alt="" />
+                  <img src={credit4} alt="" />
                   <span>Понятно</span>
                 </div>
                 <p>
@@ -84,7 +89,7 @@ const GreenPromoPartComponent = (props) => {
             <div className={styles.advantageItem}>
               <div className={styles.item}>
                 <div className={styles.item_img_title}>
-                  <img src={demoIcon} alt="" />
+                  <img src={credit5} alt="" />
                   <span>Надёжно</span>
                 </div>
                 <p>

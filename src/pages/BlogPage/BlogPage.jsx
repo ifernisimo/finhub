@@ -5,7 +5,10 @@ import HeaderComponentContainer from "../../components/HeaderComponent/HeaderCom
 
 import demoImg from "../../assets/images/blog_demo_img.svg";
 
-const BlogPage = () => {
+const BlogPage = (props) => {
+  //TODO: Когда будет созданы API на DAL уровне и серве нужно создать контейнер над этой компонентой в которой прокинуть данные при помощи thunk (который нужно написать) который тянет данные с API (который нужно также прописать) а потом просто взять кусок конструкции 1 блог поста и подставить полученные данные с пропсов
+  //TODO: И навешать onClick на пост который будет парсить урл и подставлять для перехода на конкретный пост /post компоненты BlogInsidePage
+
   return (
     <>
       <HeaderComponentContainer />

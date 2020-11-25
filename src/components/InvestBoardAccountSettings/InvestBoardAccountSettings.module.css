@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    font-family: UniNeueRegular;
+}
+
+.accountSettings form{
+    width: 45vw;
+}
+
+h2{
+    font-size: 50px;
+    color: #55c595;
+}
+
+.downRow{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.saveBtn button{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    font-family: "UniNeueBlack";
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(101.57deg, #55C595 2.19%, #7DE495 77.96%);
+    border-radius: 40px;
+    width: 378px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 48px;
+    cursor: pointer;
+    margin-top:60px;
+    margin-bottom: 60px;
+}
